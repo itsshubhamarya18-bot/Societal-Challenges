@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Problem Analysis Results</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            background: #f4f6f8;
+
+            color: #222;
+
+            min-height: 100vh;
+
+        }
+
+        .header {
+
+            background: #1f2937;
+
+            color: white;
+
+            padding: 25px 20px;
+
+            text-align: center;
+
+        }
+
+        .header h1 {
+
+            font-size: 27px;
+
+            margin-bottom: 7px;
+
+        }
+
+        .header p {
+
+            color: #d1d5db;
+
+        }
+
+        .container {
+
+            width: 90%;
+
+            max-width: 1000px;
+
+            margin: 35px auto;
+
+        }
+
+        .problem-box {
+
+            background: white;
+
+            padding: 20px;
+
+            border-radius: 10px;
+
+            margin-bottom: 20px;
+
+            box-shadow:
+                0 2px 8px
+                rgba(0, 0, 0, 0.07);
+
+        }
+
+        .problem-box h3 {
+
+            margin-bottom: 10px;
+
+        }
+
+        .problem-text {
+
+            color: #555;
+
+            line-height: 1.6;
+
+        }
+
+        .result-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
+            gap: 15px;
+
+            margin-bottom: 20px;
+
+        }
+
+        .result-card {
+
+            background: white;
+
+            padding: 20px;
+
+            border-radius: 10px;
+
+            box-shadow:
+                0 2px 8px
+                rgba(0, 0, 0, 0.07);
+
+        }
+
+        .label {
+
+            color: #6b7280;
+
+            font-size: 13px;
+
+            text-transform: uppercase;
+
+            margin-bottom: 8px;
+
+        }
+
+        .value {
+
+            font-size: 18px;
+
+            font-weight: bold;
+
+        }
+
+        .section {
+
+            background: white;
+
+            padding: 22px;
+
+            border-radius: 10px;
+
+            margin-bottom: 20px;
+
+            box-shadow:
+                0 2px 8px
+                rgba(0, 0, 0, 0.07);
+
+        }
+
+        .section h3 {
+
+            margin-bottom: 15px;
+
+        }
+
+        .tags {
+
+            display: flex;
+
+            flex-wrap: wrap;
+
+            gap: 8px;
+
+        }
+
+        .tag {
+
+            background: #e5e7eb;
+
+            padding: 7px 12px;
+
+            border-radius: 20px;
+
+            font-size: 14px;
+
+        }
+
+        .duplicate-status {
+
+            padding: 12px;
+
+            border-radius: 7px;
+
+            margin-bottom: 15px;
+
+            font-weight: bold;
+
+        }
+
+        .duplicate {
+
+            background: #fee2e2;
+
+            color: #991b1b;
+
+        }
+
+        .not-duplicate {
+
+            background: #dcfce7;
+
+            color: #166534;
+
+        }
+
+        .similar-problem {
+
+            border: 1px solid #e5e7eb;
+
+            padding: 15px;
+
+            border-radius: 8px;
+
+            margin-bottom: 10px;
+
+        }
+
+        .similar-problem p {
+
+            margin-bottom: 7px;
+
+            line-height: 1.5;
+
+        }
+
+        .similarity {
+
+            font-weight: bold;
+
+            color: #2563eb;
+
+        }
+
+        .back-button {
+
+            display: block;
+
+            width: 100%;
+
+            padding: 13px;
+
+            margin-top: 20px;
+
+            background: #374151;
+
+            color: white;
+
+            text-align: center;
+
+            text-decoration: none;
+
+            border-radius: 8px;
+
+        }
+
+        .back-button:hover {
+
+            background: #1f2937;
+
+        }
+
+        @media (max-width: 700px) {
+
+            .result-grid {
+
+                grid-template-columns: 1fr;
+
+            }
+
+            .container {
+
+                width: 94%;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <div class="header">
+
+        <h1>Problem Analysis</h1>
+
+        <p>
+            AI-generated classification results
+        </p>
+
+    </div>
+
+
+    <div class="container">
+
+
+        <!-- ORIGINAL PROBLEM -->
+
+        <div class="problem-box">
+
+            <h3>Submitted Problem</h3>
+
+            <p
+                class="problem-text"
+                id="problemText"
+            ></p>
+
+        </div>
+
+
+        <!-- CLASSIFICATION -->
+
+        <div class="result-grid">
+
+
+            <div class="result-card">
+
+                <div class="label">
+                    Domain
+                </div>
+
+                <div
+                    class="value"
+                    id="domain"
+                ></div>
+
+            </div>
+
+
+            <div class="result-card">
+
+                <div class="label">
+                    Sub-domain
+                </div>
+
+                <div
+                    class="value"
+                    id="subDomain"
+                ></div>
+
+            </div>
+
+
+            <div class="result-card">
+
+                <div class="label">
+                    Problem Type
+                </div>
+
+                <div
+                    class="value"
+                    id="problemType"
+                ></div>
+
+            </div>
+
+
+            <div class="result-card">
+
+                <div class="label">
+                    Priority
+                </div>
+
+                <div
+                    class="value"
+                    id="priority"
+                ></div>
+
+            </div>
+
+
+            <div class="result-card">
+
+                <div class="label">
+                    Severity
+                </div>
+
+                <div
+                    class="value"
+                    id="severity"
+                ></div>
+
+            </div>
+
+
+            <div class="result-card">
+
+                <div class="label">
+                    Affected Group
+                </div>
+
+                <div
+                    class="value"
+                    id="affectedGroup"
+                ></div>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- KEYWORDS -->
+
+        <div class="section">
+
+            <h3>Extracted Keywords</h3>
+
+            <div
+                class="tags"
+                id="keywords"
+            ></div>
+
+        </div>
+
+
+        <!-- DUPLICATE -->
+
+        <div class="section">
+
+            <h3>
+                Similar / Duplicate Problems
+            </h3>
+
+
+            <div
+                id="duplicateStatus"
+                class="duplicate-status"
+            ></div>
+
+
+            <div
+                id="similarProblems"
+            ></div>
+
+        </div>
+
+
+        <a
+            href="/"
+            class="back-button"
+        >
+            ← Submit Another Problem
+        </a>
+
+
+    </div>
+
+
+    <script>
+
+
+        const storedPrediction =
+            sessionStorage.getItem(
+                "prediction"
+            );
+
+
+        /*
+         * If user directly opens /results
+         * without submitting a problem.
+         */
+
+        if (!storedPrediction) {
+
+            window.location.href = "/";
+
+        }
+
+
+        else {
+
+
+            const data =
+                JSON.parse(
+                    storedPrediction
+                );
+
+
+            // ----------------------------------------
+            // BASIC INFORMATION
+            // ----------------------------------------
+
+            document.getElementById(
+                "domain"
+            ).textContent =
+                data.domain;
+
+
+            document.getElementById(
+                "subDomain"
+            ).textContent =
+                data.sub_domain;
+
+
+            document.getElementById(
+                "problemType"
+            ).textContent =
+                data.problem_type;
+
+
+            document.getElementById(
+                "priority"
+            ).textContent =
+                data.priority;
+
+
+            document.getElementById(
+                "severity"
+            ).textContent =
+                data.severity;
+
+
+            document.getElementById(
+                "affectedGroup"
+            ).textContent =
+                data.affected_group ||
+                "Not detected";
+
+
+            // ----------------------------------------
+            // KEYWORDS
+            // ----------------------------------------
+
+            document.getElementById(
+                "problemText"
+            ).textContent =
+                data.problem_text ||
+                sessionStorage.getItem(
+                    "problem_text"
+                ) ||
+                "Submitted problem";
+
+
+            const keywordContainer =
+                document.getElementById(
+                    "keywords"
+                );
+
+
+            keywordContainer.innerHTML =
+                "";
+
+
+            data.keywords.forEach(
+                keyword => {
+
+                    const tag =
+                        document.createElement(
+                            "span"
+                        );
+
+                    tag.className =
+                        "tag";
+
+                    tag.textContent =
+                        keyword;
+
+                    keywordContainer.appendChild(
+                        tag
+                    );
+
+                }
+            );
+
+
+            // ----------------------------------------
+            // DUPLICATE DETECTION
+            // ----------------------------------------
+
+            const duplicateStatus =
+                document.getElementById(
+                    "duplicateStatus"
+                );
+
+
+            if (
+                data.duplicate_detection
+                .is_duplicate
+            ) {
+
+                duplicateStatus.textContent =
+                    "⚠ Similar problem detected";
+
+                duplicateStatus.className =
+                    "duplicate-status duplicate";
+
+            }
+
+            else {
+
+                duplicateStatus.textContent =
+                    "✓ No duplicate detected";
+
+                duplicateStatus.className =
+                    "duplicate-status not-duplicate";
+
+            }
+
+
+            // ----------------------------------------
+            // SIMILAR PROBLEMS
+            // ----------------------------------------
+
+            const similarContainer =
+                document.getElementById(
+                    "similarProblems"
+                );
+
+
+            const similarProblems =
+                data.duplicate_detection
+                .similar_problems;
+
+
+            if (
+                !similarProblems ||
+                similarProblems.length === 0
+            ) {
+
+                similarContainer.innerHTML =
+                    "<p>No similar problems found.</p>";
+
+            }
+
+            else {
+
+
+                similarProblems.forEach(
+                    problem => {
+
+
+                        const div =
+                            document.createElement(
+                                "div"
+                            );
+
+
+                        div.className =
+                            "similar-problem";
+
+
+                        const id =
+                            document.createElement(
+                                "p"
+                            );
+
+                        id.innerHTML =
+                            "<strong>" +
+                            problem.problem_id +
+                            "</strong>";
+
+
+                        const text =
+                            document.createElement(
+                                "p"
+                            );
+
+                        text.textContent =
+                            problem.problem_text;
+
+
+                        const similarity =
+                            document.createElement(
+                                "p"
+                            );
+
+                        similarity.className =
+                            "similarity";
+
+                        similarity.textContent =
+                            "Similarity: " +
+                            problem.similarity;
+
+
+                        div.appendChild(id);
+
+                        div.appendChild(text);
+
+                        div.appendChild(
+                            similarity
+                        );
+
+
+                        similarContainer.appendChild(
+                            div
+                        );
+
+                    }
+                );
+
+            }
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>

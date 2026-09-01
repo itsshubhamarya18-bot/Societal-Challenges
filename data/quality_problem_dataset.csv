@@ -1,0 +1,811 @@
+problem_id,problem_text,domain,sub_domain,problem_type
+Q00248,Farm land is becoming degraded over time.,Agriculture,Soil Health,Soil Degradation
+Q00671,Public buildings do not have toilets suitable for wheelchair users.,Accessibility,Accessible Buildings,Accessible Toilet Shortage
+Q00228,Crop growth is affected because the soil lacks nutrients.,Agriculture,Soil Health,Soil Fertility Problem
+Q00291,Families do not have reliable access to clean drinking water.,Water Management,Drinking Water,Clean Drinking Water Access
+Q00539,Residents face repeated disruptions in power supply.,Energy,Power Reliability,Power Supply Interruption
+Q00797,Poor infrastructure is limiting livelihood opportunities.,Rural Livelihood,Rural Infrastructure,Rural Infrastructure Shortage
+Q00199,Farmers lack information about suitable crops for their soil.,Agriculture,Crop Management,Crop Selection Problem
+Q00597,Road construction has been incomplete for a long time.,Urban Development,Roads,Road Construction Problem
+Q00320,Water availability changes frequently in the village.,Water Management,Water Supply,Irregular Water Supply
+Q00570,Poor lighting is creating safety problems for residents.,Energy,Street Lighting,Poor Street Lighting
+Q00067,Young people have to travel far to access training facilities.,Education,Vocational Training,Training Facility Shortage
+Q00232,The soil is not providing enough nutrients for crops.,Agriculture,Soil Health,Soil Fertility Problem
+Q00441,Smoke from nearby industries is polluting the air.,Environment,Air Pollution,Industrial Air Pollution
+Q00807,Small producers do not have suitable spaces to sell their products.,Rural Livelihood,Rural Infrastructure,Market Infrastructure Problem
+Q00260,There are not enough agricultural machines for local farmers.,Agriculture,Agricultural Equipment,Equipment Shortage
+Q00427,Litter is scattered throughout the village.,Sanitation,Public Cleanliness,Littering Problem
+Q00315,The community needs regular monitoring of water quality.,Water Management,Water Quality,Water Testing Problem
+Q00110,Residents struggle to consult a doctor locally.,Healthcare,Doctor Availability,Doctor Shortage
+Q00384,Untreated sewage is polluting nearby areas.,Sanitation,Sewage Management,Sewage Treatment Problem
+Q00532,Low voltage is damaging electrical appliances.,Energy,Power Reliability,Low Voltage Problem
+Q00140,Patients face difficulties getting urgent medical treatment.,Healthcare,Emergency Services,Emergency Service Shortage
+Q00068,The local training centre lacks adequate facilities.,Education,Vocational Training,Training Facility Shortage
+Q00353,Residents cannot easily access groundwater in the area.,Water Management,Groundwater,Groundwater Access Problem
+Q00357,Wells now need to be dug much deeper to find water.,Water Management,Groundwater,Falling Water Table
+Q00040,The school needs qualified teachers for specific subjects.,Education,Teacher Availability,Subject Teacher Shortage
+Q00031,The school does not have enough teachers for all classes.,Education,Teacher Availability,Teacher Shortage
+Q00729,Accessibility information is not clearly provided to citizens.,Accessibility,Public Services Accessibility,Accessibility Information Problem
+Q00209,Plant diseases are spreading across farms in the village.,Agriculture,Crop Management,Crop Disease Management
+Q00210,Farmers need assistance in identifying and treating crop diseases.,Agriculture,Crop Management,Crop Disease Management
+Q00079,Many families struggle to access healthcare services.,Healthcare,Healthcare Access,Healthcare Access Problem
+Q00658,The town needs better community infrastructure.,Urban Development,Urban Infrastructure,Civic Facility Shortage
+Q00681,Wheelchair users cannot easily travel using local buses.,Accessibility,Accessible Transport,Wheelchair Transport Problem
+Q00672,Accessible toilets are unavailable in government facilities.,Accessibility,Accessible Buildings,Accessible Toilet Shortage
+Q00725,Public services need to become more disability friendly.,Accessibility,Public Services Accessibility,Government Service Accessibility Problem
+Q00705,The community lacks proper support services for assistive technology.,Accessibility,Assistive Technology,Assistive Technology Support Problem
+Q00024,Students struggle to access educational content due to weak internet service.,Education,Digital Education,Poor Internet Connectivity
+Q00352,Existing wells do not provide enough water for households.,Water Management,Groundwater,Groundwater Access Problem
+Q00397,The community toilet is dirty and unhygienic.,Sanitation,Toilet Facilities,Poor Public Toilets
+Q00064,The village lacks opportunities for job oriented training.,Education,Vocational Training,Vocational Training Shortage
+Q00193,Water distribution infrastructure for farms is poorly developed.,Agriculture,Irrigation,Poor Irrigation Infrastructure
+Q00066,There is no proper vocational training centre nearby.,Education,Vocational Training,Training Facility Shortage
+Q00515,The village needs electricity connections for uncovered households.,Energy,Electricity Access,Electricity Access Problem
+Q00295,Many households cannot access safe water.,Water Management,Drinking Water,Clean Drinking Water Access
+Q00138,Emergency healthcare services are inadequate in the area.,Healthcare,Emergency Services,Emergency Service Shortage
+Q00634,There are not enough houses for the growing population.,Urban Development,Housing,Housing Shortage
+Q00212,Farmers lack access to proper disease management advice.,Agriculture,Crop Management,Crop Disease Management
+Q00531,Households receive electricity at very low voltage.,Energy,Power Reliability,Low Voltage Problem
+Q00697,Low income families cannot afford necessary disability equipment.,Accessibility,Assistive Technology,Assistive Technology Cost
+Q00543,Solar energy facilities are not available in remote areas.,Energy,Renewable Energy,Solar Energy Access
+Q00571,Public buildings consume excessive electricity because of inefficient systems.,Energy,Energy Efficiency,Building Energy Wastage
+Q00337,Rainwater is wasted because there are no collection systems.,Water Management,Water Conservation,Rainwater Harvesting Problem
+Q00632,The area has a shortage of affordable houses.,Urban Development,Housing,Housing Shortage
+Q00592,Damaged roads remain unrepaired for months.,Urban Development,Roads,Road Maintenance Problem
+Q00674,The building needs accessible sanitation facilities.,Accessibility,Accessible Buildings,Accessible Toilet Shortage
+Q00303,Waste is entering the village water source.,Water Management,Water Quality,Water Contamination
+Q00406,Village drains are blocked with garbage.,Sanitation,Drainage,Blocked Drainage
+Q00550,Solar equipment requires regular maintenance.,Energy,Renewable Energy,Solar Installation Problem
+Q00087,Residents lack access to basic medical services locally.,Healthcare,Healthcare Access,Lack of Local Healthcare
+Q00488,Local wildlife populations are decreasing.,Environment,Biodiversity,Species Decline
+Q00580,Energy saving equipment is not widely available.,Energy,Energy Efficiency,Energy Efficient Equipment Shortage
+Q00328,The current distribution system does not reach all households.,Water Management,Water Supply,Water Distribution Problem
+Q00606,There is not enough parking space in the market area.,Urban Development,Traffic Management,Parking Problem
+Q00121,The health centre frequently runs out of essential medicines.,Healthcare,Medicine Availability,Medicine Shortage
+Q00175,Broken irrigation channels are affecting farming activities.,Agriculture,Irrigation,Damaged Irrigation Canal
+Q00742,Workers remain unemployed for several months each year.,Rural Livelihood,Employment,Seasonal Employment Problem
+Q00169,A damaged canal is preventing water from reaching agricultural fields.,Agriculture,Irrigation,Damaged Irrigation Canal
+Q00286,Families in the village do not get enough drinking water.,Water Management,Drinking Water,Drinking Water Shortage
+Q00050,Poor access to scholarships is affecting students from low income families.,Education,Student Services,Scholarship Access Problem
+Q00097,The healthcare building needs urgent repair.,Healthcare,Medical Infrastructure,Poor Health Facility
+Q00156,Farmers are unable to irrigate their crops regularly.,Agriculture,Irrigation,Irrigation Water Shortage
+Q00670,Wheelchair users struggle because ramps are unavailable.,Accessibility,Accessible Buildings,Ramp Shortage
+Q00495,The community needs better measures to reduce human wildlife conflict.,Environment,Biodiversity,Human Wildlife Conflict
+Q00595,Residents need better maintenance of local roads.,Urban Development,Roads,Road Maintenance Problem
+Q00806,The village lacks proper infrastructure for local markets.,Rural Livelihood,Rural Infrastructure,Market Infrastructure Problem
+Q00034,The school needs more teachers to manage all classes.,Education,Teacher Availability,Teacher Shortage
+Q00032,Several teaching positions are vacant in the village school.,Education,Teacher Availability,Teacher Shortage
+Q00599,The new road project has not been completed.,Urban Development,Roads,Road Construction Problem
+Q00276,Farmers have difficulty reaching reliable markets for their produce.,Agriculture,Agricultural Market,Market Access Problem
+Q00330,The village needs a fairer water distribution system.,Water Management,Water Supply,Water Distribution Problem
+Q00382,Wastewater is discharged without adequate treatment.,Sanitation,Sewage Management,Sewage Treatment Problem
+Q00211,Crop infections are reducing farm production.,Agriculture,Crop Management,Crop Disease Management
+Q00433,Poor sanitation practices are common in the community.,Sanitation,Public Cleanliness,Sanitation Awareness Problem
+Q00466,Trees are being cut down rapidly in the surrounding forest.,Environment,Deforestation,Forest Loss
+Q00073,Vocational courses are not aligned with market requirements.,Education,Vocational Training,Job Oriented Training Problem
+Q00078,Basic healthcare is not easily available to residents.,Healthcare,Healthcare Access,Healthcare Access Problem
+Q00494,Wildlife is damaging crops in villages near the forest.,Environment,Biodiversity,Human Wildlife Conflict
+Q00520,Residents need easier access to electricity connections.,Energy,Electricity Access,New Electricity Connection Problem
+Q00351,Families have difficulty accessing groundwater.,Water Management,Groundwater,Groundwater Access Problem
+Q00757,The quality of local training programs is poor.,Rural Livelihood,Skill Development,Training Quality Problem
+Q00650,Existing infrastructure is insufficient for residents.,Urban Development,Urban Infrastructure,Poor Urban Infrastructure
+Q00282,Crops are damaged because there is no suitable storage nearby.,Agriculture,Agricultural Market,Agricultural Storage Problem
+Q00528,Residents cannot depend on a continuous electricity supply.,Energy,Power Reliability,Frequent Power Cuts
+Q00710,Digital government services need better accessibility.,Accessibility,Digital Accessibility,Inaccessible Websites
+Q00635,Residents need access to affordable housing.,Urban Development,Housing,Housing Shortage
+Q00362,Residents have to keep waste outside their homes for several days.,Sanitation,Waste Management,Poor Waste Collection
+Q00486,Several local animal species are becoming less common.,Environment,Biodiversity,Species Decline
+Q00586,The main road in the area is badly damaged.,Urban Development,Roads,Damaged Roads
+Q00454,Industrial activities are contaminating nearby water bodies.,Environment,Water Pollution,Industrial Water Pollution
+Q00614,Traffic signals need repair and maintenance.,Urban Development,Traffic Management,Traffic Signal Problem
+Q00213,Many crops are being damaged by diseases.,Agriculture,Crop Management,Crop Disease Management
+Q00746,Residents have difficulty finding jobs near their homes.,Rural Livelihood,Employment,Local Job Access Problem
+Q00055,The village needs better transport facilities for school children.,Education,Student Services,Student Transport Problem
+Q00761,The skills taught in training programs do not match local job requirements.,Rural Livelihood,Skill Development,Skill Job Mismatch
+Q00396,Public toilets are poorly maintained.,Sanitation,Toilet Facilities,Poor Public Toilets
+Q00261,Small farmers cannot afford modern farming machinery.,Agriculture,Agricultural Equipment,Expensive Farm Equipment
+Q00502,Farmers cannot predict the rainy season reliably.,Environment,Climate Issues,Changing Rainfall Pattern
+Q00098,Patients receive treatment in inadequate facilities.,Healthcare,Medical Infrastructure,Poor Health Facility
+Q00747,People have to travel far to find employment.,Rural Livelihood,Employment,Local Job Access Problem
+Q00077,People in remote areas cannot easily reach medical facilities.,Healthcare,Healthcare Access,Healthcare Access Problem
+Q00205,Farmers are facing problems because they choose unsuitable crops.,Agriculture,Crop Management,Crop Selection Problem
+Q00609,The town needs organized parking facilities.,Urban Development,Traffic Management,Parking Problem
+Q00775,Poor market access is limiting local businesses.,Rural Livelihood,Small Businesses,Small Business Market Access
+Q00214,Farmers need expert support to control plant diseases.,Agriculture,Crop Management,Crop Disease Management
+Q00666,The public building does not have a wheelchair ramp.,Accessibility,Accessible Buildings,Ramp Shortage
+Q00430,The community needs better waste disposal awareness.,Sanitation,Public Cleanliness,Littering Problem
+Q00457,Wastewater from houses is polluting the local water source.,Environment,Water Pollution,Sewage Water Pollution
+Q00085,The distance to the nearest hospital makes treatment difficult.,Healthcare,Healthcare Access,Long Distance to Healthcare
+Q00011,The school lacks basic facilities needed by students.,Education,School Infrastructure,School Facility Shortage
+Q00731,People with disabilities do not receive enough assistance at government offices.,Accessibility,Public Services Accessibility,Service Assistance Shortage
+Q00111,Patients cannot find specialist doctors in the local hospital.,Healthcare,Doctor Availability,Specialist Doctor Shortage
+Q00287,Residents face a shortage of safe water for daily use.,Water Management,Drinking Water,Drinking Water Shortage
+Q00667,People with disabilities cannot enter because there is no ramp.,Accessibility,Accessible Buildings,Ramp Shortage
+Q00766,Small businesses struggle to obtain affordable loans.,Rural Livelihood,Small Businesses,Small Business Finance Problem
+Q00788,There are few programs teaching rural residents how to start businesses.,Rural Livelihood,Self Employment,Entrepreneurship Training Problem
+Q00445,Air pollution from industrial units is becoming a serious concern.,Environment,Air Pollution,Industrial Air Pollution
+Q00588,Residents are facing problems because of damaged roads.,Urban Development,Roads,Damaged Roads
+Q00119,Medical consultations are delayed because doctors are unavailable.,Healthcare,Doctor Availability,Doctor Unavailability
+Q00345,Water resources are being wasted due to poor management.,Water Management,Water Conservation,Water Wastage
+Q00216,Farmers are getting very low yields from their fields.,Agriculture,Crop Management,Low Crop Productivity
+Q00030,The school needs more devices to support digital education.,Education,Digital Education,Digital Learning Equipment Shortage
+Q00791,People cannot start small businesses because they lack initial capital.,Rural Livelihood,Self Employment,Self Employment Finance Problem
+Q00424,Public places are becoming unhygienic due to poor cleanliness.,Sanitation,Public Cleanliness,Poor Public Cleanliness
+Q00245,The nearest soil testing centre is difficult to reach.,Agriculture,Soil Health,Soil Testing Access
+Q00301,The water source has become contaminated and unsafe to use.,Water Management,Water Quality,Water Contamination
+Q00082,The nearest health centre is too far from the village.,Healthcare,Healthcare Access,Long Distance to Healthcare
+Q00771,Small businesses struggle to find customers outside the village.,Rural Livelihood,Small Businesses,Small Business Market Access
+Q00307,Residents complain that the water is dirty and unsafe.,Water Management,Water Quality,Poor Water Quality
+Q00584,There is little awareness about energy efficient practices.,Energy,Energy Efficiency,Energy Awareness Problem
+Q00695,People with disabilities face shortages of assistive devices.,Accessibility,Assistive Technology,Assistive Device Shortage
+Q00540,Power interruptions are affecting essential services.,Energy,Power Reliability,Power Supply Interruption
+Q00652,There are very few parks and community spaces.,Urban Development,Urban Infrastructure,Public Space Shortage
+Q00787,Young people lack entrepreneurship skills.,Rural Livelihood,Self Employment,Entrepreneurship Training Problem
+Q00759,Skill courses need better trainers and practical facilities.,Rural Livelihood,Skill Development,Training Quality Problem
+Q00200,Local farmers are unsure which crops should be planted.,Agriculture,Crop Management,Crop Selection Problem
+Q00600,Residents need better road connectivity.,Urban Development,Roads,Road Construction Problem
+Q00527,Power cuts occur several times every day.,Energy,Power Reliability,Frequent Power Cuts
+Q00008,Students are studying in an unsafe school building.,Education,School Infrastructure,Poor School Building
+Q00714,The website needs better screen reader support.,Accessibility,Digital Accessibility,Screen Reader Accessibility Problem
+Q00102,Medical infrastructure is inadequate for the local population.,Healthcare,Medical Infrastructure,Healthcare Infrastructure Problem
+Q00329,Several areas are left without water because distribution is poor.,Water Management,Water Supply,Water Distribution Problem
+Q00236,Farmers cannot easily get their soil tested.,Agriculture,Soil Health,Soil Testing Access
+Q00312,The village lacks a facility to test drinking water.,Water Management,Water Quality,Water Testing Problem
+Q00332,Large amounts of water are wasted in the community.,Water Management,Water Conservation,Water Conservation Problem
+Q00003,There are not enough rooms available for classes in the village school.,Education,School Infrastructure,Classroom Shortage
+Q00617,There are very few buses connecting the area.,Urban Development,Public Transport,Public Transport Shortage
+Q00418,Rainwater cannot be safely carried away from the village.,Sanitation,Drainage,Poor Drainage Infrastructure
+Q00660,Residents need improved public facilities.,Urban Development,Urban Infrastructure,Civic Facility Shortage
+Q00734,Government service centres should provide better support to people with disabilities.,Accessibility,Public Services Accessibility,Service Assistance Shortage
+Q00805,Storage facilities are insufficient in the rural area.,Rural Livelihood,Rural Infrastructure,Storage Infrastructure Problem
+Q00440,Vehicle emissions are reducing local air quality.,Environment,Air Pollution,Vehicle Pollution
+Q00755,Young people need better vocational and technical training.,Rural Livelihood,Skill Development,Skill Training Shortage
+Q00518,Some households have not received their requested electricity connection.,Energy,Electricity Access,New Electricity Connection Problem
+Q00663,The public building lacks ramps and accessible entrances.,Accessibility,Accessible Buildings,Inaccessible Public Buildings
+Q00240,Farmers do not know the nutrient condition of their soil.,Agriculture,Soil Health,Soil Testing Access
+Q00446,Construction activities create excessive dust in the area.,Environment,Air Pollution,Dust Pollution
+Q00334,There is little awareness about saving water.,Water Management,Water Conservation,Water Conservation Problem
+Q00293,People have to travel far to find safe drinking water.,Water Management,Drinking Water,Clean Drinking Water Access
+Q00636,Many houses are in poor condition and require repair.,Urban Development,Housing,Poor Housing Condition
+Q00080,People have limited access to nearby medical care.,Healthcare,Healthcare Access,Healthcare Access Problem
+Q00149,Medical help does not arrive quickly during emergencies.,Healthcare,Emergency Services,Emergency Response Delay
+Q00560,There are not enough street lights in residential areas.,Energy,Street Lighting,Street Light Shortage
+Q00523,Electricity infrastructure has not reached all households.,Energy,Electricity Access,Rural Electrification Problem
+Q00708,People with visual disabilities cannot easily navigate government websites.,Accessibility,Digital Accessibility,Inaccessible Websites
+Q00463,Rainwater carries farm chemicals into the village pond.,Environment,Water Pollution,Agricultural Runoff Pollution
+Q00426,People frequently throw waste on roads and public places.,Sanitation,Public Cleanliness,Littering Problem
+Q00292,Residents depend on unsafe sources for drinking water.,Water Management,Drinking Water,Clean Drinking Water Access
+Q00134,Medicine prices are creating financial difficulties for families.,Healthcare,Medicine Availability,High Medicine Cost
+Q00468,Illegal tree cutting is reducing forest cover.,Environment,Deforestation,Forest Loss
+Q00219,The yield from agricultural fields has decreased significantly.,Agriculture,Crop Management,Low Crop Productivity
+Q00581,Residents have limited awareness about saving electricity.,Energy,Energy Efficiency,Energy Awareness Problem
+Q00056,Students do not receive enough textbooks and learning materials.,Education,Student Services,Learning Material Shortage
+Q00432,People are not sufficiently aware of proper hygiene and sanitation.,Sanitation,Public Cleanliness,Sanitation Awareness Problem
+Q00803,Poor storage infrastructure causes losses for rural producers.,Rural Livelihood,Rural Infrastructure,Storage Infrastructure Problem
+Q00739,Many residents have to migrate because local jobs are unavailable.,Rural Livelihood,Employment,Rural Employment Shortage
+Q00777,Small businesses need mentoring and advisory services.,Rural Livelihood,Small Businesses,Small Business Support Shortage
+Q00698,The cost of assistive technology is creating accessibility problems.,Accessibility,Assistive Technology,Assistive Technology Cost
+Q00733,Residents need assistance while accessing government services.,Accessibility,Public Services Accessibility,Service Assistance Shortage
+Q00300,The village water infrastructure cannot serve all households.,Water Management,Drinking Water,Drinking Water Infrastructure Problem
+Q00383,The local sewage system lacks a treatment facility.,Sanitation,Sewage Management,Sewage Treatment Problem
+Q00061,Young people in the area do not have enough vocational training opportunities.,Education,Vocational Training,Vocational Training Shortage
+Q00582,The community needs education about energy conservation.,Energy,Energy Efficiency,Energy Awareness Problem
+Q00381,The village does not have proper sewage treatment facilities.,Sanitation,Sewage Management,Sewage Treatment Problem
+Q00197,Farmers need guidance on selecting suitable crops.,Agriculture,Crop Management,Crop Selection Problem
+Q00443,Industrial activities are causing poor air quality.,Environment,Air Pollution,Industrial Air Pollution
+Q00447,Road dust is affecting residents' health.,Environment,Air Pollution,Dust Pollution
+Q00538,The electricity connection stops working regularly.,Energy,Power Reliability,Power Supply Interruption
+Q00533,Residents experience weak electricity supply.,Energy,Power Reliability,Low Voltage Problem
+Q00255,The condition of the farmland has deteriorated.,Agriculture,Soil Health,Soil Degradation
+Q00266,Farm machinery frequently breaks down and is difficult to repair.,Agriculture,Agricultural Equipment,Equipment Maintenance
+Q00310,Water quality has deteriorated in the local area.,Water Management,Water Quality,Poor Water Quality
+Q00091,The health centre does not have enough medical equipment.,Healthcare,Medical Infrastructure,Medical Equipment Shortage
+Q00335,The local area needs a proper water conservation strategy.,Water Management,Water Conservation,Water Conservation Problem
+Q00182,Farmers lack a reliable system for supplying water to their fields.,Agriculture,Irrigation,Poor Irrigation Infrastructure
+Q00413,Roads become flooded because water cannot drain properly.,Sanitation,Drainage,Waterlogging
+Q00369,Open dumping has become a major problem in the village.,Sanitation,Waste Management,Open Waste Dumping
+Q00399,Residents avoid using the public toilet because of poor maintenance.,Sanitation,Toilet Facilities,Poor Public Toilets
+Q00159,There is insufficient water for agricultural activities in the village.,Agriculture,Irrigation,Irrigation Water Shortage
+Q00070,Training facilities are insufficient for local youth.,Education,Vocational Training,Training Facility Shortage
+Q00809,Local vendors need improved market infrastructure.,Rural Livelihood,Rural Infrastructure,Market Infrastructure Problem
+Q00132,The cost of medicines is too high for local residents.,Healthcare,Medicine Availability,High Medicine Cost
+Q00045,Students are affected by frequent teacher absenteeism.,Education,Teacher Availability,Teacher Absenteeism
+Q00071,Existing training programs do not provide skills needed for local jobs.,Education,Vocational Training,Job Oriented Training Problem
+Q00629,The area needs better transport connections.,Urban Development,Public Transport,Transport Connectivity Problem
+Q00479,Human activities are damaging the forest ecosystem.,Environment,Deforestation,Forest Degradation
+Q00317,Residents receive water only on some days.,Water Management,Water Supply,Irregular Water Supply
+Q00741,Employment is available only during certain seasons.,Rural Livelihood,Employment,Seasonal Employment Problem
+Q00136,The village lacks reliable emergency medical services.,Healthcare,Emergency Services,Emergency Service Shortage
+Q00083,Patients travel long distances to receive basic medical treatment.,Healthcare,Healthcare Access,Long Distance to Healthcare
+Q00166,The irrigation canal supplying water to farms is damaged.,Agriculture,Irrigation,Damaged Irrigation Canal
+Q00165,Crop cultivation is affected due to inadequate water supply.,Agriculture,Irrigation,Irrigation Water Shortage
+Q00029,Digital learning equipment is unavailable to many students.,Education,Digital Education,Digital Learning Equipment Shortage
+Q00412,Heavy rain causes severe waterlogging in residential areas.,Sanitation,Drainage,Waterlogging
+Q00194,Farmers need better infrastructure to access irrigation water.,Agriculture,Irrigation,Poor Irrigation Infrastructure
+Q00327,Water is not distributed equally among village residents.,Water Management,Water Supply,Water Distribution Problem
+Q00526,The village experiences frequent electricity outages.,Energy,Power Reliability,Frequent Power Cuts
+Q00480,Forest degradation is affecting the local environment.,Environment,Deforestation,Forest Degradation
+Q00137,Residents cannot get immediate medical help during emergencies.,Healthcare,Emergency Services,Emergency Service Shortage
+Q00421,Public areas in the village are not cleaned regularly.,Sanitation,Public Cleanliness,Poor Public Cleanliness
+Q00451,Industrial waste is entering the nearby water source.,Environment,Water Pollution,Industrial Water Pollution
+Q00141,An ambulance is often unavailable when patients need urgent transport.,Healthcare,Emergency Services,Ambulance Unavailability
+Q00478,The surrounding forest has lost much of its vegetation.,Environment,Deforestation,Forest Degradation
+Q00007,The walls and roof of the village school are badly damaged.,Education,School Infrastructure,Poor School Building
+Q00530,The local electricity supply is highly unreliable.,Energy,Power Reliability,Frequent Power Cuts
+Q00394,Residents have difficulty finding usable toilet facilities.,Sanitation,Toilet Facilities,Toilet Shortage
+Q00251,Repeated cultivation is damaging the quality of the soil.,Agriculture,Soil Health,Soil Degradation
+Q00074,Training programs do not adequately prepare students for jobs.,Education,Vocational Training,Job Oriented Training Problem
+Q00752,The village lacks skill development programs.,Rural Livelihood,Skill Development,Skill Training Shortage
+Q00484,Wildlife habitats are shrinking in the area.,Environment,Biodiversity,Wildlife Habitat Loss
+Q00378,Residents face sewage overflow during heavy rain.,Sanitation,Sewage Management,Sewage Overflow
+Q00146,Emergency medical teams take too long to reach the village.,Healthcare,Emergency Services,Emergency Response Delay
+Q00297,Water pipelines are inadequate for household needs.,Water Management,Drinking Water,Drinking Water Infrastructure Problem
+Q00235,The quality of agricultural soil has deteriorated.,Agriculture,Soil Health,Soil Fertility Problem
+Q00221,Farmers are unable to achieve good production from their land.,Agriculture,Crop Management,Low Crop Productivity
+Q00778,The village lacks support centres for entrepreneurs.,Rural Livelihood,Small Businesses,Small Business Support Shortage
+Q00437,Traffic emissions are increasing air pollution in the town.,Environment,Air Pollution,Vehicle Pollution
+Q00133,Patients struggle to pay for essential medical treatment.,Healthcare,Medicine Availability,High Medicine Cost
+Q00507,Residents are struggling with unusually high temperatures.,Environment,Climate Issues,Heat Stress
+Q00267,Farmers cannot find nearby services to maintain agricultural equipment.,Agriculture,Agricultural Equipment,Equipment Maintenance
+Q00622,Residents wait for long periods because buses are infrequent.,Urban Development,Public Transport,Bus Service Problem
+Q00760,Current training programs are not preparing youth effectively for jobs.,Rural Livelihood,Skill Development,Training Quality Problem
+Q00474,Trees are being removed without permission.,Environment,Deforestation,Illegal Tree Cutting
+Q00042,Students lose classes because teachers are regularly absent.,Education,Teacher Availability,Teacher Absenteeism
+Q00500,Extreme weather is damaging crops and infrastructure.,Environment,Climate Issues,Extreme Weather Impact
+Q00109,The health facility needs more medical doctors.,Healthcare,Doctor Availability,Doctor Shortage
+Q00711,The online service does not work properly with screen readers.,Accessibility,Digital Accessibility,Screen Reader Accessibility Problem
+Q00057,The school has a shortage of educational materials.,Education,Student Services,Learning Material Shortage
+Q00654,The town needs more public parks and open spaces.,Urban Development,Urban Infrastructure,Public Space Shortage
+Q00449,Unpaved roads are creating severe dust pollution.,Environment,Air Pollution,Dust Pollution
+Q00576,Public buildings lack energy efficient appliances.,Energy,Energy Efficiency,Energy Efficient Equipment Shortage
+Q00025,The school needs a reliable internet connection for digital education.,Education,Digital Education,Poor Internet Connectivity
+Q00347,Wells are drying because groundwater is being depleted.,Water Management,Groundwater,Groundwater Depletion
+Q00356,The water table has dropped significantly in recent years.,Water Management,Groundwater,Falling Water Table
+Q00361,Garbage is not collected regularly from the village.,Sanitation,Waste Management,Poor Waste Collection
+Q00052,There is no reliable transport service for students.,Education,Student Services,Student Transport Problem
+Q00336,The village does not have proper rainwater harvesting facilities.,Water Management,Water Conservation,Rainwater Harvesting Problem
+Q00744,Seasonal work does not provide stable income to families.,Rural Livelihood,Employment,Seasonal Employment Problem
+Q00265,Expensive machinery is limiting agricultural productivity.,Agriculture,Agricultural Equipment,Expensive Farm Equipment
+Q00363,The local waste collection service is irregular.,Sanitation,Waste Management,Poor Waste Collection
+Q00653,Residents lack safe places for recreation.,Urban Development,Urban Infrastructure,Public Space Shortage
+Q00339,The community has not adopted rainwater harvesting.,Water Management,Water Conservation,Rainwater Harvesting Problem
+Q00546,Existing solar panels are not properly maintained.,Energy,Renewable Energy,Solar Installation Problem
+Q00019,Students cannot regularly use computers because the school lacks equipment.,Education,Digital Education,Computer Lab Shortage
+Q00590,The local road needs urgent repair.,Urban Development,Roads,Damaged Roads
+Q00366,People are dumping household waste in open areas.,Sanitation,Waste Management,Open Waste Dumping
+Q00084,People in the village do not have a healthcare facility nearby.,Healthcare,Healthcare Access,Long Distance to Healthcare
+Q00062,There are very few practical skill training programs for local youth.,Education,Vocational Training,Vocational Training Shortage
+Q00801,Farmers and small producers lack proper storage facilities.,Rural Livelihood,Rural Infrastructure,Storage Infrastructure Problem
+Q00723,Government offices lack facilities for people with mobility difficulties.,Accessibility,Public Services Accessibility,Government Service Accessibility Problem
+Q00452,Factory discharge is polluting the local river.,Environment,Water Pollution,Industrial Water Pollution
+Q00183,There is no proper irrigation network in the farming area.,Agriculture,Irrigation,Poor Irrigation Infrastructure
+Q00627,Remote communities have limited transport connectivity.,Urban Development,Public Transport,Transport Connectivity Problem
+Q00765,Workers need training that matches current market requirements.,Rural Livelihood,Skill Development,Skill Job Mismatch
+Q00224,The productivity of farmland is very low.,Agriculture,Crop Management,Low Crop Productivity
+Q00429,Plastic and other waste are being thrown in open areas.,Sanitation,Public Cleanliness,Littering Problem
+Q00626,Some residential areas are poorly connected by public transport.,Urban Development,Public Transport,Transport Connectivity Problem
+Q00324,Water leaks from damaged pipelines.,Water Management,Water Supply,Water Pipeline Problem
+Q00333,Residents need better methods to conserve available water.,Water Management,Water Conservation,Water Conservation Problem
+Q00448,Large amounts of dust are present near the village roads.,Environment,Air Pollution,Dust Pollution
+Q00498,The community is facing increasing weather-related risks.,Environment,Climate Issues,Extreme Weather Impact
+Q00177,The damaged canal is reducing water delivery to farms.,Agriculture,Irrigation,Damaged Irrigation Canal
+Q00552,The community needs information about solar and other clean energy options.,Energy,Renewable Energy,Renewable Energy Awareness
+Q00368,There is no proper place for disposing of household waste.,Sanitation,Waste Management,Open Waste Dumping
+Q00164,Farmers are struggling because their fields do not get enough water.,Agriculture,Irrigation,Irrigation Water Shortage
+Q00249,The soil has lost its productive capacity.,Agriculture,Soil Health,Soil Degradation
+Q00524,The village needs better rural electrification.,Energy,Electricity Access,Rural Electrification Problem
+Q00719,Digital services need a more accessible interface.,Accessibility,Digital Accessibility,Digital Interface Accessibility Problem
+Q00075,Local youth need more practical and employment focused training.,Education,Vocational Training,Job Oriented Training Problem
+Q00772,Local entrepreneurs have limited access to larger markets.,Rural Livelihood,Small Businesses,Small Business Market Access
+Q00410,Residents face problems because drains are frequently blocked.,Sanitation,Drainage,Blocked Drainage
+Q00105,The local medical centre requires infrastructure improvement.,Healthcare,Medical Infrastructure,Healthcare Infrastructure Problem
+Q00115,Patients need access to specialist doctors locally.,Healthcare,Doctor Availability,Specialist Doctor Shortage
+Q00423,The village lacks regular cleaning services.,Sanitation,Public Cleanliness,Poor Public Cleanliness
+Q00093,Doctors cannot provide some treatments because equipment is unavailable.,Healthcare,Medical Infrastructure,Medical Equipment Shortage
+Q00491,Wild animals frequently enter nearby villages.,Environment,Biodiversity,Human Wildlife Conflict
+Q00090,Basic medical services are unavailable in the local area.,Healthcare,Healthcare Access,Lack of Local Healthcare
+Q00435,Residents require education about maintaining clean surroundings.,Sanitation,Public Cleanliness,Sanitation Awareness Problem
+Q00745,Workers need more consistent employment throughout the year.,Rural Livelihood,Employment,Seasonal Employment Problem
+Q00754,There are few skill development centres in the area.,Rural Livelihood,Skill Development,Skill Training Shortage
+Q00716,The digital application is difficult for people with disabilities to use.,Accessibility,Digital Accessibility,Digital Interface Accessibility Problem
+Q00501,Rainfall patterns have become unpredictable in recent years.,Environment,Climate Issues,Changing Rainfall Pattern
+Q00704,People with disabilities need help maintaining their assistive equipment.,Accessibility,Assistive Technology,Assistive Technology Support Problem
+Q00012,Students do not have access to adequate facilities at the school.,Education,School Infrastructure,School Facility Shortage
+Q00358,The groundwater level is falling every year.,Water Management,Groundwater,Falling Water Table
+Q00044,Classes are often cancelled because teachers do not attend regularly.,Education,Teacher Availability,Teacher Absenteeism
+Q00043,Teacher attendance is a serious problem at the school.,Education,Teacher Availability,Teacher Absenteeism
+Q00168,The canal used for farming has developed cracks and leaks.,Agriculture,Irrigation,Damaged Irrigation Canal
+Q00712,Visually impaired users cannot access important information on the website.,Accessibility,Digital Accessibility,Screen Reader Accessibility Problem
+Q00651,The area does not have enough public spaces for residents.,Urban Development,Urban Infrastructure,Public Space Shortage
+Q00465,Fertilizer runoff is polluting nearby rivers.,Environment,Water Pollution,Agricultural Runoff Pollution
+Q00179,Water cannot flow properly through the damaged irrigation canal.,Agriculture,Irrigation,Damaged Irrigation Canal
+Q00536,Electricity supply is interrupted frequently without warning.,Energy,Power Reliability,Power Supply Interruption
+Q00545,The community lacks sufficient solar energy infrastructure.,Energy,Renewable Energy,Solar Energy Access
+Q00178,The agricultural water channel requires maintenance.,Agriculture,Irrigation,Damaged Irrigation Canal
+Q00559,Residents feel unsafe because roads lack proper lighting.,Energy,Street Lighting,Street Light Shortage
+Q00610,Illegal roadside parking is affecting traffic movement.,Urban Development,Traffic Management,Parking Problem
+Q00258,The village lacks equipment for modern farming.,Agriculture,Agricultural Equipment,Equipment Shortage
+Q00364,Household waste remains uncollected in many areas.,Sanitation,Waste Management,Poor Waste Collection
+Q00517,Residents face difficulties applying for electricity connections.,Energy,Electricity Access,New Electricity Connection Problem
+Q00016,Students do not have access to enough computers at school.,Education,Digital Education,Computer Lab Shortage
+Q00004,The school needs additional classrooms because existing rooms are overcrowded.,Education,School Infrastructure,Classroom Shortage
+Q00649,The area needs better infrastructure and civic facilities.,Urban Development,Urban Infrastructure,Poor Urban Infrastructure
+Q00257,Small farmers cannot access the machines needed for cultivation.,Agriculture,Agricultural Equipment,Equipment Shortage
+Q00376,Sewage frequently overflows onto roads in the village.,Sanitation,Sewage Management,Sewage Overflow
+Q00395,The community needs additional toilet facilities.,Sanitation,Toilet Facilities,Toilet Shortage
+Q00343,Leaking taps and pipes are causing significant water wastage.,Water Management,Water Conservation,Water Wastage
+Q00483,Forest clearing is reducing habitat for local animals.,Environment,Biodiversity,Wildlife Habitat Loss
+Q00555,There is little knowledge about renewable energy solutions.,Energy,Renewable Energy,Renewable Energy Awareness
+Q00639,Existing housing infrastructure is inadequate.,Urban Development,Housing,Poor Housing Condition
+Q00645,The community lacks affordable housing options.,Urban Development,Housing,Affordable Housing Problem
+Q00325,Residents are affected by frequent pipeline failures.,Water Management,Water Supply,Water Pipeline Problem
+Q00773,Rural businesses need better market connections.,Rural Livelihood,Small Businesses,Small Business Market Access
+Q00010,The classroom building has cracks and damaged facilities.,Education,School Infrastructure,Poor School Building
+Q00250,Agricultural land is suffering from soil degradation.,Agriculture,Soil Health,Soil Degradation
+Q00023,Online learning is difficult because the internet connection frequently fails.,Education,Digital Education,Poor Internet Connectivity
+Q00222,Agricultural output remains low despite cultivation efforts.,Agriculture,Crop Management,Low Crop Productivity
+Q00553,People are unaware of the benefits of renewable energy.,Energy,Renewable Energy,Renewable Energy Awareness
+Q00699,People with disabilities need affordable assistive devices.,Accessibility,Assistive Technology,Assistive Technology Cost
+Q00795,Limited access to startup capital is affecting rural entrepreneurship.,Rural Livelihood,Self Employment,Self Employment Finance Problem
+Q00535,Low power voltage is affecting homes and businesses.,Energy,Power Reliability,Low Voltage Problem
+Q00341,Large quantities of water are wasted because of leaking systems.,Water Management,Water Conservation,Water Wastage
+Q00679,Accessible vehicles are not available in the area.,Accessibility,Accessible Transport,Accessible Transport Shortage
+Q00204,The community lacks experts who can advise farmers about suitable crops.,Agriculture,Crop Management,Crop Selection Problem
+Q00238,Farmers need access to soil testing services.,Agriculture,Soil Health,Soil Testing Access
+Q00094,The health centre needs modern medical equipment.,Healthcare,Medical Infrastructure,Medical Equipment Shortage
+Q00405,The existing toilets are not properly maintained.,Sanitation,Toilet Facilities,Toilet Maintenance Problem
+Q00749,Workers cannot easily access employment opportunities in nearby areas.,Rural Livelihood,Employment,Local Job Access Problem
+Q00514,Electricity connections are unavailable for some families.,Energy,Electricity Access,Electricity Access Problem
+Q00285,Poor storage facilities are causing post harvest losses.,Agriculture,Agricultural Market,Agricultural Storage Problem
+Q00185,Agricultural fields do not have proper water distribution infrastructure.,Agriculture,Irrigation,Poor Irrigation Infrastructure
+Q00657,Public facilities are insufficient for the growing population.,Urban Development,Urban Infrastructure,Civic Facility Shortage
+Q00537,Unexpected power interruptions affect daily activities.,Energy,Power Reliability,Power Supply Interruption
+Q00154,Crops are drying because farmers cannot get sufficient water.,Agriculture,Irrigation,Irrigation Water Shortage
+Q00076,Villagers have difficulty accessing basic healthcare services.,Healthcare,Healthcare Access,Healthcare Access Problem
+Q00458,Sewage is entering the village pond.,Environment,Water Pollution,Sewage Water Pollution
+Q00678,The transport system lacks facilities for people with disabilities.,Accessibility,Accessible Transport,Accessible Transport Shortage
+Q00278,Farmers depend on middlemen because direct market access is limited.,Agriculture,Agricultural Market,Market Access Problem
+Q00069,The area needs better infrastructure for vocational training.,Education,Vocational Training,Training Facility Shortage
+Q00519,The process of getting a new power connection is difficult.,Energy,Electricity Access,New Electricity Connection Problem
+Q00189,There is inadequate infrastructure for agricultural water supply.,Agriculture,Irrigation,Poor Irrigation Infrastructure
+Q00272,The price offered for agricultural produce is not enough for farmers.,Agriculture,Agricultural Market,Low Crop Prices
+Q00237,There is no nearby facility for agricultural soil testing.,Agriculture,Soil Health,Soil Testing Access
+Q00089,The community needs a healthcare facility within the village.,Healthcare,Healthcare Access,Lack of Local Healthcare
+Q00690,The area needs more disability-friendly buses.,Accessibility,Accessible Transport,Accessible Bus Shortage
+Q00118,The health centre does not have a doctor during important hours.,Healthcare,Doctor Availability,Doctor Unavailability
+Q00126,Basic medicines needed by patients are not available.,Healthcare,Medicine Availability,Essential Medicine Unavailability
+Q00668,Several public facilities lack accessible ramps.,Accessibility,Accessible Buildings,Ramp Shortage
+Q00290,Residents struggle to collect enough water for drinking.,Water Management,Drinking Water,Drinking Water Shortage
+Q00239,The village lacks a soil testing laboratory.,Agriculture,Soil Health,Soil Testing Access
+Q00001,The government school does not have enough classrooms for all students.,Education,School Infrastructure,Classroom Shortage
+Q00802,The village needs warehouses for local products.,Rural Livelihood,Rural Infrastructure,Storage Infrastructure Problem
+Q00389,Wastewater cannot be safely carried away from homes.,Sanitation,Sewage Management,Sewage Network Problem
+Q00709,The website lacks accessibility features.,Accessibility,Digital Accessibility,Inaccessible Websites
+Q00534,The voltage frequently drops below normal levels.,Energy,Power Reliability,Low Voltage Problem
+Q00279,Local farmers struggle to find buyers for their agricultural products.,Agriculture,Agricultural Market,Market Access Problem
+Q00631,Many families do not have adequate housing.,Urban Development,Housing,Housing Shortage
+Q00117,Patients often return without seeing a doctor.,Healthcare,Doctor Availability,Doctor Unavailability
+Q00229,The agricultural land has low fertility.,Agriculture,Soil Health,Soil Fertility Problem
+Q00572,Electricity is being wasted in government buildings.,Energy,Energy Efficiency,Building Energy Wastage
+Q00425,Residents are concerned about the poor cleanliness of common areas.,Sanitation,Public Cleanliness,Poor Public Cleanliness
+Q00602,Roads become heavily congested during peak hours.,Urban Development,Traffic Management,Traffic Congestion
+Q00275,Farmers suffer losses because market prices are low.,Agriculture,Agricultural Market,Low Crop Prices
+Q00319,Households cannot depend on a fixed water supply schedule.,Water Management,Water Supply,Irregular Water Supply
+Q00794,People need financial support to start self-employment activities.,Rural Livelihood,Self Employment,Self Employment Finance Problem
+Q00145,Emergency transport is difficult to arrange in the village.,Healthcare,Emergency Services,Ambulance Unavailability
+Q00583,People often waste electricity because they lack awareness.,Energy,Energy Efficiency,Energy Awareness Problem
+Q00513,Residents in remote areas lack access to electricity.,Energy,Electricity Access,Electricity Access Problem
+Q00737,Young people struggle to find jobs locally.,Rural Livelihood,Employment,Rural Employment Shortage
+Q00591,Roads are not maintained regularly.,Urban Development,Roads,Road Maintenance Problem
+Q00370,Residents need a proper waste disposal facility.,Sanitation,Waste Management,Open Waste Dumping
+Q00269,Broken agricultural machines remain unused because repair services are unavailable.,Agriculture,Agricultural Equipment,Equipment Maintenance
+Q00573,The school building uses more power than necessary.,Energy,Energy Efficiency,Building Energy Wastage
+Q00308,The village water has an unpleasant smell and poor quality.,Water Management,Water Quality,Poor Water Quality
+Q00311,Residents do not have access to regular water quality testing.,Water Management,Water Quality,Water Testing Problem
+Q00637,Families are living in unsafe houses.,Urban Development,Housing,Poor Housing Condition
+Q00047,Students face difficulties applying for education scholarships.,Education,Student Services,Scholarship Access Problem
+Q00350,Farmers are worried about continuous groundwater depletion.,Water Management,Groundwater,Groundwater Depletion
+Q00372,Wet and dry waste are being mixed together.,Sanitation,Waste Management,Waste Segregation Problem
+Q00529,Frequent outages are affecting households and businesses.,Energy,Power Reliability,Frequent Power Cuts
+Q00262,Agricultural equipment is too expensive for local farmers.,Agriculture,Agricultural Equipment,Expensive Farm Equipment
+Q00196,Farmers do not know which crops are suitable for the local conditions.,Agriculture,Crop Management,Crop Selection Problem
+Q00810,Poor market facilities are affecting rural businesses.,Rural Livelihood,Rural Infrastructure,Market Infrastructure Problem
+Q00680,People with mobility difficulties struggle to use public transport.,Accessibility,Accessible Transport,Accessible Transport Shortage
+Q00108,There is a shortage of doctors in the village health centre.,Healthcare,Doctor Availability,Doctor Shortage
+Q00060,The school needs more textbooks and educational materials.,Education,Student Services,Learning Material Shortage
+Q00605,Traffic jams are affecting daily commuters.,Urban Development,Traffic Management,Traffic Congestion
+Q00444,Factory smoke is affecting people living nearby.,Environment,Air Pollution,Industrial Air Pollution
+Q00101,The village health facility lacks essential infrastructure.,Healthcare,Medical Infrastructure,Healthcare Infrastructure Problem
+Q00482,Development activities are destroying wildlife habitats.,Environment,Biodiversity,Wildlife Habitat Loss
+Q00728,Residents do not know which government services are accessible.,Accessibility,Public Services Accessibility,Accessibility Information Problem
+Q00589,The road surface has deteriorated significantly.,Urban Development,Roads,Damaged Roads
+Q00798,"The rural area needs better roads, storage and market facilities.",Rural Livelihood,Rural Infrastructure,Rural Infrastructure Shortage
+Q00180,The village needs urgent repairs to its farm irrigation channel.,Agriculture,Irrigation,Damaged Irrigation Canal
+Q00305,Pollution has made the local water source unsafe.,Water Management,Water Quality,Water Contamination
+Q00434,The village needs sanitation awareness programs.,Sanitation,Public Cleanliness,Sanitation Awareness Problem
+Q00496,Extreme weather events are increasingly affecting the village.,Environment,Climate Issues,Extreme Weather Impact
+Q00781,Residents have limited opportunities to start their own businesses.,Rural Livelihood,Self Employment,Self Employment Opportunity Shortage
+Q00150,The delay in emergency response puts patients at risk.,Healthcare,Emergency Services,Emergency Response Delay
+Q00125,Patients are forced to buy medicines elsewhere because the centre has none.,Healthcare,Medicine Availability,Medicine Shortage
+Q00642,Housing costs are too high for many residents.,Urban Development,Housing,Affordable Housing Problem
+Q00706,Government websites are difficult for people with disabilities to use.,Accessibility,Digital Accessibility,Inaccessible Websites
+Q00186,The village needs a better system to deliver water to farms.,Agriculture,Irrigation,Poor Irrigation Infrastructure
+Q00685,Wheelchair accessibility is poor in local transport.,Accessibility,Accessible Transport,Wheelchair Transport Problem
+Q00051,Students from remote villages have difficulty reaching school.,Education,Student Services,Student Transport Problem
+Q00549,Many solar systems are not working properly.,Energy,Renewable Energy,Solar Installation Problem
+Q00800,Poor infrastructure is making it difficult for villagers to improve their livelihoods.,Rural Livelihood,Rural Infrastructure,Rural Infrastructure Shortage
+Q00776,Local entrepreneurs do not receive enough business support.,Rural Livelihood,Small Businesses,Small Business Support Shortage
+Q00322,Broken pipes are reducing water supply to households.,Water Management,Water Supply,Water Pipeline Problem
+Q00354,The village needs better infrastructure to access groundwater.,Water Management,Groundwater,Groundwater Access Problem
+Q00750,The village needs better access to local jobs.,Rural Livelihood,Employment,Local Job Access Problem
+Q00143,The area does not have reliable ambulance services.,Healthcare,Emergency Services,Ambulance Unavailability
+Q00371,Households do not have facilities to separate different types of waste.,Sanitation,Waste Management,Waste Segregation Problem
+Q00142,Villagers cannot arrange an ambulance quickly during emergencies.,Healthcare,Emergency Services,Ambulance Unavailability
+Q00400,The local public toilet needs urgent renovation.,Sanitation,Toilet Facilities,Poor Public Toilets
+Q00264,Farmers cannot purchase necessary equipment because of its price.,Agriculture,Agricultural Equipment,Expensive Farm Equipment
+Q00321,The water pipeline supplying the village is damaged.,Water Management,Water Supply,Water Pipeline Problem
+Q00020,The school needs a functional computer lab for students.,Education,Digital Education,Computer Lab Shortage
+Q00173,The irrigation channel has been broken for several months.,Agriculture,Irrigation,Damaged Irrigation Canal
+Q00661,Public buildings do not have facilities for people with disabilities.,Accessibility,Accessible Buildings,Inaccessible Public Buildings
+Q00313,People do not know whether their water source is safe.,Water Management,Water Quality,Water Testing Problem
+Q00391,The village does not have enough toilets for residents.,Sanitation,Toilet Facilities,Toilet Shortage
+Q00756,Existing skill training programs do not provide adequate practical knowledge.,Rural Livelihood,Skill Development,Training Quality Problem
+Q00013,The school is missing important educational facilities.,Education,School Infrastructure,School Facility Shortage
+Q00408,Waste is preventing proper flow through the drainage system.,Sanitation,Drainage,Blocked Drainage
+Q00409,The drainage channels are clogged and need cleaning.,Sanitation,Drainage,Blocked Drainage
+Q00306,The water supplied to households is of poor quality.,Water Management,Water Quality,Poor Water Quality
+Q00355,Water sources are too deep for many households to reach.,Water Management,Groundwater,Groundwater Access Problem
+Q00026,The school does not have enough digital devices for students.,Education,Digital Education,Digital Learning Equipment Shortage
+Q00603,Vehicles frequently get stuck in traffic.,Urban Development,Traffic Management,Traffic Congestion
+Q00170,The village irrigation channel needs urgent repair.,Agriculture,Irrigation,Damaged Irrigation Canal
+Q00039,Students are struggling because specialist subject teachers are unavailable.,Education,Teacher Availability,Subject Teacher Shortage
+Q00176,Farmers are requesting repair of the irrigation canal.,Agriculture,Irrigation,Damaged Irrigation Canal
+Q00246,The quality of agricultural soil is deteriorating.,Agriculture,Soil Health,Soil Degradation
+Q00299,Residents need better infrastructure for clean water supply.,Water Management,Drinking Water,Drinking Water Infrastructure Problem
+Q00676,People with disabilities have limited access to public transport.,Accessibility,Accessible Transport,Accessible Transport Shortage
+Q00417,There are no proper drains in several residential areas.,Sanitation,Drainage,Poor Drainage Infrastructure
+Q00673,People with disabilities cannot easily use public toilets.,Accessibility,Accessible Buildings,Accessible Toilet Shortage
+Q00273,Farmers are unable to earn a fair price for their harvest.,Agriculture,Agricultural Market,Low Crop Prices
+Q00618,People struggle to find reliable public transportation.,Urban Development,Public Transport,Public Transport Shortage
+Q00155,The village does not have a reliable source of water for agricultural fields.,Agriculture,Irrigation,Irrigation Water Shortage
+Q00127,The health centre does not stock essential medicines.,Healthcare,Medicine Availability,Essential Medicine Unavailability
+Q00450,Dust from construction sites is reducing air quality.,Environment,Air Pollution,Dust Pollution
+Q00577,Old electrical equipment is still being used instead of efficient alternatives.,Energy,Energy Efficiency,Energy Efficient Equipment Shortage
+Q00342,Water is unnecessarily wasted in the village.,Water Management,Water Conservation,Water Wastage
+Q00431,Residents need greater awareness about sanitation practices.,Sanitation,Public Cleanliness,Sanitation Awareness Problem
+Q00288,People have difficulty getting sufficient drinking water.,Water Management,Drinking Water,Drinking Water Shortage
+Q00114,The hospital lacks specialist medical staff.,Healthcare,Doctor Availability,Specialist Doctor Shortage
+Q00792,Aspiring entrepreneurs struggle to obtain funds for self-employment.,Rural Livelihood,Self Employment,Self Employment Finance Problem
+Q00174,The canal infrastructure is in poor condition.,Agriculture,Irrigation,Damaged Irrigation Canal
+Q00360,The falling water table is affecting local water availability.,Water Management,Groundwater,Falling Water Table
+Q00487,The number of native species has declined significantly.,Environment,Biodiversity,Species Decline
+Q00058,Many children lack the books required for their studies.,Education,Student Services,Learning Material Shortage
+Q00558,The village needs additional street lighting.,Energy,Street Lighting,Street Light Shortage
+Q00223,Farmers are experiencing declining crop yields.,Agriculture,Crop Management,Low Crop Productivity
+Q00281,Farmers do not have proper storage facilities for harvested crops.,Agriculture,Agricultural Market,Agricultural Storage Problem
+Q00018,There are too few computers for students to practice digital learning.,Education,Digital Education,Computer Lab Shortage
+Q00128,Patients cannot obtain commonly required medicines locally.,Healthcare,Medicine Availability,Essential Medicine Unavailability
+Q00323,The village pipeline network needs urgent repair.,Water Management,Water Supply,Water Pipeline Problem
+Q00256,Farmers do not have enough agricultural equipment.,Agriculture,Agricultural Equipment,Equipment Shortage
+Q00544,Residents want better access to solar power.,Energy,Renewable Energy,Solar Energy Access
+Q00471,People are illegally cutting trees in the forest.,Environment,Deforestation,Illegal Tree Cutting
+Q00604,The area needs better traffic management.,Urban Development,Traffic Management,Traffic Congestion
+Q00469,Forest areas are shrinking because of excessive tree removal.,Environment,Deforestation,Forest Loss
+Q00779,New businesses struggle because professional guidance is unavailable.,Rural Livelihood,Small Businesses,Small Business Support Shortage
+Q00191,The existing irrigation network does not cover all agricultural fields.,Agriculture,Irrigation,Poor Irrigation Infrastructure
+Q00116,The doctor is frequently unavailable at the health centre.,Healthcare,Doctor Availability,Doctor Unavailability
+Q00522,Some rural settlements remain without electricity.,Energy,Electricity Access,Rural Electrification Problem
+Q00718,The interface is not suitable for users with visual or motor difficulties.,Accessibility,Digital Accessibility,Digital Interface Accessibility Problem
+Q00508,Extreme heat is affecting outdoor workers.,Environment,Climate Issues,Heat Stress
+Q00095,Patients are affected by the shortage of medical equipment.,Healthcare,Medical Infrastructure,Medical Equipment Shortage
+Q00181,The village does not have proper irrigation infrastructure.,Agriculture,Irrigation,Poor Irrigation Infrastructure
+Q00302,Residents are worried because the local water is contaminated.,Water Management,Water Quality,Water Contamination
+Q00623,The village needs more reliable bus services.,Urban Development,Public Transport,Bus Service Problem
+Q00587,Potholes have made the road difficult to use.,Urban Development,Roads,Damaged Roads
+Q00596,The village needs a proper road connecting nearby areas.,Urban Development,Roads,Road Construction Problem
+Q00767,Local entrepreneurs have difficulty accessing business finance.,Rural Livelihood,Small Businesses,Small Business Finance Problem
+Q00621,Bus services are irregular in the area.,Urban Development,Public Transport,Bus Service Problem
+Q00717,Online forms have accessibility barriers.,Accessibility,Digital Accessibility,Digital Interface Accessibility Problem
+Q00548,Residents need technical support for solar systems.,Energy,Renewable Energy,Solar Installation Problem
+Q00006,The school building is in poor condition and needs urgent repair.,Education,School Infrastructure,Poor School Building
+Q00796,The village lacks basic infrastructure needed for economic development.,Rural Livelihood,Rural Infrastructure,Rural Infrastructure Shortage
+Q00046,Eligible students are unable to receive their scholarships on time.,Education,Student Services,Scholarship Access Problem
+Q00736,There are very few employment opportunities in the village.,Rural Livelihood,Employment,Rural Employment Shortage
+Q00158,Farmers face severe water shortage while growing crops.,Agriculture,Irrigation,Irrigation Water Shortage
+Q00611,Traffic signals are not working properly.,Urban Development,Traffic Management,Traffic Signal Problem
+Q00172,Farmers are unable to use the canal because it is badly damaged.,Agriculture,Irrigation,Damaged Irrigation Canal
+Q00017,The school does not have a proper computer laboratory.,Education,Digital Education,Computer Lab Shortage
+Q00512,Several homes are not connected to the electricity grid.,Energy,Electricity Access,Electricity Access Problem
+Q00049,Scholarship payments are delayed for students.,Education,Student Services,Scholarship Access Problem
+Q00785,The community needs more opportunities for self-employment.,Rural Livelihood,Self Employment,Self Employment Opportunity Shortage
+Q00516,Families are waiting for new electricity connections.,Energy,Electricity Access,New Electricity Connection Problem
+Q00568,Street lighting is insufficient in the village.,Energy,Street Lighting,Poor Street Lighting
+Q00481,Wild animals are losing their natural habitat.,Environment,Biodiversity,Wildlife Habitat Loss
+Q00284,Farmers are forced to sell crops quickly because storage is unavailable.,Agriculture,Agricultural Market,Agricultural Storage Problem
+Q00542,Households need affordable solar power solutions.,Energy,Renewable Energy,Solar Energy Access
+Q00226,The soil in the village has become less fertile.,Agriculture,Soil Health,Soil Fertility Problem
+Q00027,Students lack tablets and other equipment needed for digital learning.,Education,Digital Education,Digital Learning Equipment Shortage
+Q00638,The roofs and walls of several homes are damaged.,Urban Development,Housing,Poor Housing Condition
+Q00438,Residents are affected by excessive vehicle smoke.,Environment,Air Pollution,Vehicle Pollution
+Q00365,The village needs a reliable garbage collection system.,Sanitation,Waste Management,Poor Waste Collection
+Q00230,Farmers need help improving the nutrient quality of their soil.,Agriculture,Soil Health,Soil Fertility Problem
+Q00038,There is no dedicated mathematics teacher at the school.,Education,Teacher Availability,Subject Teacher Shortage
+Q00780,Rural entrepreneurs need better institutional support.,Rural Livelihood,Small Businesses,Small Business Support Shortage
+Q00375,Waste is collected without separating recyclable materials.,Sanitation,Waste Management,Waste Segregation Problem
+Q00470,The community is concerned about increasing deforestation.,Environment,Deforestation,Forest Loss
+Q00782,Young people need more self-employment opportunities.,Rural Livelihood,Self Employment,Self Employment Opportunity Shortage
+Q00691,People with disabilities do not have access to necessary assistive devices.,Accessibility,Assistive Technology,Assistive Device Shortage
+Q00598,Several residential areas still lack proper roads.,Urban Development,Roads,Road Construction Problem
+Q00195,The current irrigation system cannot meet agricultural demand.,Agriculture,Irrigation,Poor Irrigation Infrastructure
+Q00693,Assistive devices are not easily available locally.,Accessibility,Assistive Technology,Assistive Device Shortage
+Q00724,People with disabilities face barriers while applying for public services.,Accessibility,Public Services Accessibility,Government Service Accessibility Problem
+Q00504,Irregular rainfall is affecting agricultural activities.,Environment,Climate Issues,Changing Rainfall Pattern
+Q00784,People struggle to find viable self-employment options.,Rural Livelihood,Self Employment,Self Employment Opportunity Shortage
+Q00677,Public buses are not suitable for wheelchair users.,Accessibility,Accessible Transport,Accessible Transport Shortage
+Q00783,The village lacks support for people who want to become entrepreneurs.,Rural Livelihood,Self Employment,Self Employment Opportunity Shortage
+Q00163,The available water is not sufficient for farming.,Agriculture,Irrigation,Irrigation Water Shortage
+Q00579,Government facilities need efficient lighting and appliances.,Energy,Energy Efficiency,Energy Efficient Equipment Shortage
+Q00153,Farmers struggle to provide water to their crops.,Agriculture,Irrigation,Irrigation Water Shortage
+Q00768,Small business owners need better access to credit.,Rural Livelihood,Small Businesses,Small Business Finance Problem
+Q00656,Residents lack adequate civic facilities in the area.,Urban Development,Urban Infrastructure,Civic Facility Shortage
+Q00619,The town needs better public transport services.,Urban Development,Public Transport,Public Transport Shortage
+Q00112,There is no specialist available for serious medical conditions.,Healthcare,Doctor Availability,Specialist Doctor Shortage
+Q00227,Farmers are experiencing poor soil fertility.,Agriculture,Soil Health,Soil Fertility Problem
+Q00569,Public areas need better lighting at night.,Energy,Street Lighting,Poor Street Lighting
+Q00104,Existing healthcare infrastructure cannot meet community needs.,Healthcare,Medical Infrastructure,Healthcare Infrastructure Problem
+Q00422,Roads and public spaces are covered with garbage.,Sanitation,Public Cleanliness,Poor Public Cleanliness
+Q00420,The community needs improved drainage infrastructure.,Sanitation,Drainage,Poor Drainage Infrastructure
+Q00120,Residents cannot reliably meet a doctor when they need one.,Healthcare,Doctor Availability,Doctor Unavailability
+Q00054,Students struggle to attend school due to transportation problems.,Education,Student Services,Student Transport Problem
+Q00152,There is not enough water available for farming during summer.,Agriculture,Irrigation,Irrigation Water Shortage
+Q00404,Public sanitation facilities require regular cleaning.,Sanitation,Toilet Facilities,Toilet Maintenance Problem
+Q00764,There is a mismatch between available skills and employment opportunities.,Rural Livelihood,Skill Development,Skill Job Mismatch
+Q00208,Farmers do not have enough knowledge to manage crop diseases.,Agriculture,Crop Management,Crop Disease Management
+Q00686,There are very few buses designed for passengers with disabilities.,Accessibility,Accessible Transport,Accessible Bus Shortage
+Q00625,The current bus service does not meet local demand.,Urban Development,Public Transport,Bus Service Problem
+Q00009,The school infrastructure has deteriorated and requires renovation.,Education,School Infrastructure,Poor School Building
+Q00659,Basic civic amenities are unavailable in some areas.,Urban Development,Urban Infrastructure,Civic Facility Shortage
+Q00037,The school lacks teachers for important subjects.,Education,Teacher Availability,Subject Teacher Shortage
+Q00453,Wastewater from industries is affecting water quality.,Environment,Water Pollution,Industrial Water Pollution
+Q00254,Farmers are facing declining soil quality.,Agriculture,Soil Health,Soil Degradation
+Q00304,The community is facing contamination of its drinking water.,Water Management,Water Quality,Water Contamination
+Q00612,The main intersection lacks functional traffic lights.,Urban Development,Traffic Management,Traffic Signal Problem
+Q00585,The village needs an energy conservation awareness program.,Energy,Energy Efficiency,Energy Awareness Problem
+Q00735,People with disabilities face difficulties because assistance is unavailable.,Accessibility,Public Services Accessibility,Service Assistance Shortage
+Q00263,The high cost of machines prevents farmers from adopting modern methods.,Agriculture,Agricultural Equipment,Expensive Farm Equipment
+Q00298,The local drinking water system requires major improvements.,Water Management,Drinking Water,Drinking Water Infrastructure Problem
+Q00415,Poor drainage causes frequent waterlogging.,Sanitation,Drainage,Waterlogging
+Q00151,Farmers do not have enough water to irrigate their fields.,Agriculture,Irrigation,Irrigation Water Shortage
+Q00644,Families need access to low cost housing.,Urban Development,Housing,Affordable Housing Problem
+Q00721,People with disabilities face difficulties accessing government services.,Accessibility,Public Services Accessibility,Government Service Accessibility Problem
+Q00551,Residents have limited awareness about renewable energy.,Energy,Renewable Energy,Renewable Energy Awareness
+Q00489,Some species are disappearing from the area.,Environment,Biodiversity,Species Decline
+Q00148,Emergency response is slow in remote areas.,Healthcare,Emergency Services,Emergency Response Delay
+Q00147,Patients face delays in receiving emergency medical assistance.,Healthcare,Emergency Services,Emergency Response Delay
+Q00594,Road maintenance work is delayed frequently.,Urban Development,Roads,Road Maintenance Problem
+Q00753,Residents need practical training to improve employment opportunities.,Rural Livelihood,Skill Development,Skill Training Shortage
+Q00607,Vehicles are parked randomly along busy roads.,Urban Development,Traffic Management,Parking Problem
+Q00349,Groundwater availability has decreased significantly.,Water Management,Groundwater,Groundwater Depletion
+Q00464,Pesticide runoff is affecting water quality.,Environment,Water Pollution,Agricultural Runoff Pollution
+Q00326,Some households receive water while others receive very little.,Water Management,Water Supply,Water Distribution Problem
+Q00187,Farmers depend mainly on rainfall because irrigation facilities are poor.,Agriculture,Irrigation,Poor Irrigation Infrastructure
+Q00124,The local medical store has shortages of essential drugs.,Healthcare,Medicine Availability,Medicine Shortage
+Q00692,Many residents cannot obtain wheelchairs and other support equipment.,Accessibility,Assistive Technology,Assistive Device Shortage
+Q00144,Patients wait too long for ambulances during emergencies.,Healthcare,Emergency Services,Ambulance Unavailability
+Q00774,Small producers cannot easily sell their products in nearby towns.,Rural Livelihood,Small Businesses,Small Business Market Access
+Q00198,The wrong crop choices are reducing farm productivity.,Agriculture,Crop Management,Crop Selection Problem
+Q00280,The village needs better access to agricultural markets.,Agriculture,Agricultural Market,Market Access Problem
+Q00294,The village lacks a dependable source of clean drinking water.,Water Management,Drinking Water,Clean Drinking Water Access
+Q00401,Toilets are not cleaned regularly.,Sanitation,Toilet Facilities,Toilet Maintenance Problem
+Q00123,Important medicines are often unavailable at the health centre.,Healthcare,Medicine Availability,Medicine Shortage
+Q00184,The existing irrigation facilities are inadequate for local farmers.,Agriculture,Irrigation,Poor Irrigation Infrastructure
+Q00203,Farmers need better information about crop selection.,Agriculture,Crop Management,Crop Selection Problem
+Q00439,Old vehicles are producing large amounts of pollution.,Environment,Air Pollution,Vehicle Pollution
+Q00247,Soil erosion is reducing the quality of farmland.,Agriculture,Soil Health,Soil Degradation
+Q00416,The village does not have adequate drainage infrastructure.,Sanitation,Drainage,Poor Drainage Infrastructure
+Q00722,Public services are not easily accessible to residents with disabilities.,Accessibility,Public Services Accessibility,Government Service Accessibility Problem
+Q00130,Residents face problems getting basic medicines.,Healthcare,Medicine Availability,Essential Medicine Unavailability
+Q00403,Toilet facilities become unusable because maintenance is poor.,Sanitation,Toilet Facilities,Toilet Maintenance Problem
+Q00762,Young people complete training but struggle to find relevant jobs.,Rural Livelihood,Skill Development,Skill Job Mismatch
+Q00630,Poor transport connectivity is affecting residents' daily activities.,Urban Development,Public Transport,Transport Connectivity Problem
+Q00738,The rural area lacks sufficient employment opportunities.,Rural Livelihood,Employment,Rural Employment Shortage
+Q00220,Poor crop productivity is reducing farmers' income.,Agriculture,Crop Management,Low Crop Productivity
+Q00740,The community needs more employment opportunities.,Rural Livelihood,Employment,Rural Employment Shortage
+Q00616,Residents do not have enough public transport options.,Urban Development,Public Transport,Public Transport Shortage
+Q00743,Rural workers face irregular employment opportunities.,Rural Livelihood,Employment,Seasonal Employment Problem
+Q00683,People using wheelchairs face difficulties boarding buses.,Accessibility,Accessible Transport,Wheelchair Transport Problem
+Q00624,Public buses do not operate frequently enough.,Urban Development,Public Transport,Bus Service Problem
+Q00387,Several households are not connected to the sewage system.,Sanitation,Sewage Management,Sewage Network Problem
+Q00786,Residents need training to start and manage small businesses.,Rural Livelihood,Self Employment,Entrepreneurship Training Problem
+Q00510,High temperatures are creating health and livelihood problems.,Environment,Climate Issues,Heat Stress
+Q00268,There is no reliable repair facility for farm machinery.,Agriculture,Agricultural Equipment,Equipment Maintenance
+Q00669,The community needs ramps at public buildings.,Accessibility,Accessible Buildings,Ramp Shortage
+Q00442,Residents complain about emissions from factories.,Environment,Air Pollution,Industrial Air Pollution
+Q00497,Heavy rainfall and heat waves are causing serious problems.,Environment,Climate Issues,Extreme Weather Impact
+Q00113,Residents have to travel to cities to consult specialists.,Healthcare,Doctor Availability,Specialist Doctor Shortage
+Q00233,Poor soil fertility is reducing agricultural production.,Agriculture,Soil Health,Soil Fertility Problem
+Q00707,Online public services are not designed for screen readers.,Accessibility,Digital Accessibility,Inaccessible Websites
+Q00608,Lack of parking space is creating traffic problems.,Urban Development,Traffic Management,Parking Problem
+Q00374,Residents need awareness about separating household waste.,Sanitation,Waste Management,Waste Segregation Problem
+Q00234,Farmers are struggling with nutrient-deficient soil.,Agriculture,Soil Health,Soil Fertility Problem
+Q00641,Low income families cannot afford suitable housing.,Urban Development,Housing,Affordable Housing Problem
+Q00318,The village water supply is highly irregular.,Water Management,Water Supply,Irregular Water Supply
+Q00411,Rainwater remains on village roads for several days.,Sanitation,Drainage,Waterlogging
+Q00727,There is limited information about disability-friendly public facilities.,Accessibility,Public Services Accessibility,Accessibility Information Problem
+Q00359,Residents are concerned about the continuously declining water table.,Water Management,Groundwater,Falling Water Table
+Q00259,Farmers struggle because farming machinery is unavailable.,Agriculture,Agricultural Equipment,Equipment Shortage
+Q00628,Residents cannot easily travel to nearby towns.,Urban Development,Public Transport,Transport Connectivity Problem
+Q00633,Low income families struggle to find suitable housing.,Urban Development,Housing,Housing Shortage
+Q00283,The village lacks warehouses for agricultural produce.,Agriculture,Agricultural Market,Agricultural Storage Problem
+Q00377,Wastewater is overflowing from the drainage system.,Sanitation,Sewage Management,Sewage Overflow
+Q00385,The community needs a proper sewage treatment system.,Sanitation,Sewage Management,Sewage Treatment Problem
+Q00225,Crop production has fallen over the last few seasons.,Agriculture,Crop Management,Low Crop Productivity
+Q00790,The community needs better entrepreneurship training.,Rural Livelihood,Self Employment,Entrepreneurship Training Problem
+Q00665,Government buildings need better accessibility.,Accessibility,Accessible Buildings,Inaccessible Public Buildings
+Q00473,Forest resources are being damaged by illegal logging.,Environment,Deforestation,Illegal Tree Cutting
+Q00348,The community is facing declining groundwater resources.,Water Management,Groundwater,Groundwater Depletion
+Q00506,Increasing temperatures are causing severe heat stress.,Environment,Climate Issues,Heat Stress
+Q00640,Residents need support to improve unsafe houses.,Urban Development,Housing,Poor Housing Condition
+Q00799,Basic infrastructure is insufficient for local economic activities.,Rural Livelihood,Rural Infrastructure,Rural Infrastructure Shortage
+Q00751,Young people do not have enough opportunities to learn job skills.,Rural Livelihood,Skill Development,Skill Training Shortage
+Q00732,Public offices lack staff to help people with accessibility needs.,Accessibility,Public Services Accessibility,Service Assistance Shortage
+Q00620,Public transport is insufficient for local residents.,Urban Development,Public Transport,Public Transport Shortage
+Q00694,The community needs better access to disability support equipment.,Accessibility,Assistive Technology,Assistive Device Shortage
+Q00646,The town lacks adequate basic infrastructure.,Urban Development,Urban Infrastructure,Poor Urban Infrastructure
+Q00769,Lack of finance is preventing villagers from expanding businesses.,Rural Livelihood,Small Businesses,Small Business Finance Problem
+Q00557,Many public roads remain dark at night.,Energy,Street Lighting,Street Light Shortage
+Q00578,The community needs access to energy efficient equipment.,Energy,Energy Efficiency,Energy Efficient Equipment Shortage
+Q00086,The village does not have a nearby healthcare facility.,Healthcare,Healthcare Access,Lack of Local Healthcare
+Q00243,There is limited access to soil testing services.,Agriculture,Soil Health,Soil Testing Access
+Q00160,Lack of water is affecting crop production.,Agriculture,Irrigation,Irrigation Water Shortage
+Q00525,Remote households continue to face limited electricity access.,Energy,Electricity Access,Rural Electrification Problem
+Q00036,Students do not have a qualified teacher for science subjects.,Education,Teacher Availability,Subject Teacher Shortage
+Q00541,The village has limited access to solar energy systems.,Energy,Renewable Energy,Solar Energy Access
+Q00171,Water is leaking from the damaged canal before reaching the farms.,Agriculture,Irrigation,Damaged Irrigation Canal
+Q00655,Public recreational spaces are insufficient.,Urban Development,Urban Infrastructure,Public Space Shortage
+Q00696,Assistive devices are too expensive for many families.,Accessibility,Assistive Technology,Assistive Technology Cost
+Q00688,People with disabilities need more accessible buses.,Accessibility,Accessible Transport,Accessible Bus Shortage
+Q00763,Training courses are not aligned with industry demand.,Rural Livelihood,Skill Development,Skill Job Mismatch
+Q00096,The local health centre is in poor condition.,Healthcare,Medical Infrastructure,Poor Health Facility
+Q00564,Street lighting equipment is frequently malfunctioning.,Energy,Street Lighting,Broken Street Lights
+Q00241,Soil testing facilities are too far from the village.,Agriculture,Soil Health,Soil Testing Access
+Q00575,Public facilities need better energy efficiency.,Energy,Energy Efficiency,Building Energy Wastage
+Q00461,Fertilizers from farms are entering the nearby water source.,Environment,Water Pollution,Agricultural Runoff Pollution
+Q00554,The village needs awareness programs about clean energy.,Energy,Renewable Energy,Renewable Energy Awareness
+Q00713,Digital forms are difficult to use with assistive software.,Accessibility,Digital Accessibility,Screen Reader Accessibility Problem
+Q00207,Crop diseases are damaging agricultural production.,Agriculture,Crop Management,Crop Disease Management
+Q00393,There are insufficient public toilets in the area.,Sanitation,Toilet Facilities,Toilet Shortage
+Q00398,Public toilets lack water and cleaning facilities.,Sanitation,Toilet Facilities,Poor Public Toilets
+Q00689,Accessible public buses are not available on important routes.,Accessibility,Accessible Transport,Accessible Bus Shortage
+Q00218,Farmers are struggling to improve agricultural productivity.,Agriculture,Crop Management,Low Crop Productivity
+Q00005,Many students have to attend classes in temporary spaces due to lack of classrooms.,Education,School Infrastructure,Classroom Shortage
+Q00643,Affordable homes are difficult to find in the area.,Urban Development,Housing,Affordable Housing Problem
+Q00726,People with disabilities cannot easily find information about accessible services.,Accessibility,Public Services Accessibility,Accessibility Information Problem
+Q00613,Broken traffic signals are creating confusion for drivers.,Urban Development,Traffic Management,Traffic Signal Problem
+Q00547,Solar installations in the village are frequently malfunctioning.,Energy,Renewable Energy,Solar Installation Problem
+Q00684,Transport services need facilities for wheelchair users.,Accessibility,Accessible Transport,Wheelchair Transport Problem
+Q00099,The health centre lacks basic infrastructure.,Healthcare,Medical Infrastructure,Poor Health Facility
+Q00574,Old electrical equipment is increasing energy consumption.,Energy,Energy Efficiency,Building Energy Wastage
+Q00407,Blocked drains are causing water to accumulate on roads.,Sanitation,Drainage,Blocked Drainage
+Q00503,The timing of rainfall has changed significantly.,Environment,Climate Issues,Changing Rainfall Pattern
+Q00048,Many students do not know how to access available scholarships.,Education,Student Services,Scholarship Access Problem
+Q00033,Students are affected because the school has too few teachers.,Education,Teacher Availability,Teacher Shortage
+Q00201,Farmers need advice on choosing crops according to weather conditions.,Agriculture,Crop Management,Crop Selection Problem
+Q00135,Many patients cannot afford necessary medicines.,Healthcare,Medicine Availability,High Medicine Cost
+Q00028,There are not enough smart devices for online education.,Education,Digital Education,Digital Learning Equipment Shortage
+Q00715,People using screen readers face problems accessing online services.,Accessibility,Digital Accessibility,Screen Reader Accessibility Problem
+Q00231,Soil fertility has decreased over the years.,Agriculture,Soil Health,Soil Fertility Problem
+Q00490,The community is noticing a decline in local biodiversity.,Environment,Biodiversity,Species Decline
+Q00379,Sewage is entering residential areas.,Sanitation,Sewage Management,Sewage Overflow
+Q00289,The village water supply cannot meet household demand.,Water Management,Drinking Water,Drinking Water Shortage
+Q00419,The existing drainage system is insufficient.,Sanitation,Drainage,Poor Drainage Infrastructure
+Q00675,There are not enough disability-friendly toilets in public places.,Accessibility,Accessible Buildings,Accessible Toilet Shortage
+Q00392,Many households still lack access to toilets.,Sanitation,Toilet Facilities,Toilet Shortage
+Q00593,The area lacks proper road maintenance services.,Urban Development,Roads,Road Maintenance Problem
+Q00499,Unusual weather conditions are affecting local livelihoods.,Environment,Climate Issues,Extreme Weather Impact
+Q00139,The community needs better emergency medical support.,Healthcare,Emergency Services,Emergency Service Shortage
+Q00063,Youth need better vocational courses to prepare for employment.,Education,Vocational Training,Vocational Training Shortage
+Q00472,Unauthorized tree cutting is occurring in the local forest.,Environment,Deforestation,Illegal Tree Cutting
+Q00648,Several public facilities require major improvement.,Urban Development,Urban Infrastructure,Poor Urban Infrastructure
+Q00129,Essential drugs are missing from the local health facility.,Healthcare,Medicine Availability,Essential Medicine Unavailability
+Q00789,Local entrepreneurs need guidance on business planning.,Rural Livelihood,Self Employment,Entrepreneurship Training Problem
+Q00521,Remote parts of the village are still not electrified.,Energy,Electricity Access,Rural Electrification Problem
+Q00065,Young people have limited access to vocational education.,Education,Vocational Training,Vocational Training Shortage
+Q00015,The village school needs better facilities for students.,Education,School Infrastructure,School Facility Shortage
+Q00157,Agricultural fields suffer from lack of water during dry months.,Agriculture,Irrigation,Irrigation Water Shortage
+Q00041,Teachers frequently remain absent from the village school.,Education,Teacher Availability,Teacher Absenteeism
+Q00493,Residents experience frequent encounters with wild animals.,Environment,Biodiversity,Human Wildlife Conflict
+Q00380,Overflowing sewage is creating unhygienic conditions.,Sanitation,Sewage Management,Sewage Overflow
+Q00188,The irrigation system is not sufficient for the number of farms.,Agriculture,Irrigation,Poor Irrigation Infrastructure
+Q00217,Crop production is lower than expected in the village.,Agriculture,Crop Management,Low Crop Productivity
+Q00053,Children travel long distances because school transport is unavailable.,Education,Student Services,Student Transport Problem
+Q00338,Residents need infrastructure to collect rainwater.,Water Management,Water Conservation,Rainwater Harvesting Problem
+Q00720,People with disabilities face difficulties using the online portal.,Accessibility,Digital Accessibility,Digital Interface Accessibility Problem
+Q00296,The village lacks proper infrastructure for supplying drinking water.,Water Management,Drinking Water,Drinking Water Infrastructure Problem
+Q00702,Residents need training to use disability assistive technology.,Accessibility,Assistive Technology,Assistive Technology Support Problem
+Q00252,The farmland is becoming less productive because of soil degradation.,Agriculture,Soil Health,Soil Degradation
+Q00462,Agricultural chemicals are polluting local water bodies.,Environment,Water Pollution,Agricultural Runoff Pollution
+Q00456,Untreated sewage is being discharged into the river.,Environment,Water Pollution,Sewage Water Pollution
+Q00808,The rural market requires better facilities.,Rural Livelihood,Rural Infrastructure,Market Infrastructure Problem
+Q00270,Farmers need better maintenance services for farming equipment.,Agriculture,Agricultural Equipment,Equipment Maintenance
+Q00202,Many farmers select crops without proper agricultural guidance.,Agriculture,Crop Management,Crop Selection Problem
+Q00162,"During summer, crops do not receive adequate water.",Agriculture,Irrigation,Irrigation Water Shortage
+Q00556,Several streets in the village do not have street lights.,Energy,Street Lighting,Street Light Shortage
+Q00730,People need better information about accessible public services.,Accessibility,Public Services Accessibility,Accessibility Information Problem
+Q00402,The village lacks a proper system for maintaining public toilets.,Sanitation,Toilet Facilities,Toilet Maintenance Problem
+Q00703,There is limited technical support for assistive devices.,Accessibility,Assistive Technology,Assistive Technology Support Problem
+Q00477,Forest areas are becoming degraded due to human activities.,Environment,Deforestation,Forest Degradation
+Q00106,The local health centre does not have enough doctors.,Healthcare,Doctor Availability,Doctor Shortage
+Q00566,The existing street lights are too weak to illuminate roads properly.,Energy,Street Lighting,Poor Street Lighting
+Q00390,The sewage infrastructure needs improvement.,Sanitation,Sewage Management,Sewage Network Problem
+Q00002,Students are forced to share overcrowded classrooms.,Education,School Infrastructure,Classroom Shortage
+Q00758,Trainees do not receive enough hands-on experience.,Rural Livelihood,Skill Development,Training Quality Problem
+Q00562,Broken street lights leave roads dark at night.,Energy,Street Lighting,Broken Street Lights
+Q00081,Villagers have to travel many kilometres to reach a hospital.,Healthcare,Healthcare Access,Long Distance to Healthcare
+Q00206,Farmers are struggling to control diseases affecting their crops.,Agriculture,Crop Management,Crop Disease Management
+Q00035,There is a shortage of teachers in the local school.,Education,Teacher Availability,Teacher Shortage
+Q00509,The village is experiencing longer periods of intense heat.,Environment,Climate Issues,Heat Stress
+Q00428,There are no effective measures to control littering.,Sanitation,Public Cleanliness,Littering Problem
+Q00455,Residents are concerned about pollution from nearby factories.,Environment,Water Pollution,Industrial Water Pollution
+Q00367,Garbage is being thrown near residential areas.,Sanitation,Waste Management,Open Waste Dumping
+Q00092,Important equipment is missing from the local hospital.,Healthcare,Medical Infrastructure,Medical Equipment Shortage
+Q00340,Rainwater harvesting facilities are inadequate.,Water Management,Water Conservation,Rainwater Harvesting Problem
+Q00565,Residents have complained about non-functional street lights.,Energy,Street Lighting,Broken Street Lights
+Q00346,Groundwater levels are falling rapidly in the village.,Water Management,Groundwater,Groundwater Depletion
+Q00242,Farmers cannot obtain proper soil health reports.,Agriculture,Soil Health,Soil Testing Access
+Q00014,Basic facilities required for students are not available.,Education,School Infrastructure,School Facility Shortage
+Q00316,Water does not reach households regularly.,Water Management,Water Supply,Irregular Water Supply
+Q00601,Traffic congestion is causing long delays in the town.,Urban Development,Traffic Management,Traffic Congestion
+Q00388,The existing sewage network is inadequate.,Sanitation,Sewage Management,Sewage Network Problem
+Q00274,Local crop prices are too low to cover farming costs.,Agriculture,Agricultural Market,Low Crop Prices
+Q00167,Farmers cannot receive canal water because the canal is broken.,Agriculture,Irrigation,Damaged Irrigation Canal
+Q00804,Local businesses do not have adequate storage facilities.,Rural Livelihood,Rural Infrastructure,Storage Infrastructure Problem
+Q00647,Urban infrastructure has not kept pace with population growth.,Urban Development,Urban Infrastructure,Poor Urban Infrastructure
+Q00485,The community is concerned about the loss of animal habitats.,Environment,Biodiversity,Wildlife Habitat Loss
+Q00793,Lack of affordable finance prevents residents from starting businesses.,Rural Livelihood,Self Employment,Self Employment Finance Problem
+Q00505,Changes in rainfall patterns are creating difficulties for farmers.,Environment,Climate Issues,Changing Rainfall Pattern
+Q00244,Farmers need affordable soil testing facilities.,Agriculture,Soil Health,Soil Testing Access
+Q00567,Roads remain poorly lit despite having street lights.,Energy,Street Lighting,Poor Street Lighting
+Q00563,Many lights require repair or replacement.,Energy,Street Lighting,Broken Street Lights
+Q00687,The local bus fleet lacks accessible vehicles.,Accessibility,Accessible Transport,Accessible Bus Shortage
+Q00190,Farmers have no reliable irrigation facility.,Agriculture,Irrigation,Poor Irrigation Infrastructure
+Q00700,Assistive equipment is financially inaccessible to many residents.,Accessibility,Assistive Technology,Assistive Technology Cost
+Q00476,The quality of the local forest is declining.,Environment,Deforestation,Forest Degradation
+Q00682,Public transport does not accommodate wheelchairs properly.,Accessibility,Accessible Transport,Wheelchair Transport Problem
+Q00511,Some households in the village still do not have electricity.,Energy,Electricity Access,Electricity Access Problem
+Q00059,Students cannot study properly because learning resources are limited.,Education,Student Services,Learning Material Shortage
+Q00475,Illegal logging is threatening the nearby forest.,Environment,Deforestation,Illegal Tree Cutting
+Q00561,Several street lights are not working.,Energy,Street Lighting,Broken Street Lights
+Q00748,Local job opportunities are limited.,Rural Livelihood,Employment,Local Job Access Problem
+Q00253,Soil erosion is affecting agricultural fields.,Agriculture,Soil Health,Soil Degradation
+Q00022,The school has unreliable internet access.,Education,Digital Education,Poor Internet Connectivity
+Q00314,Water samples are rarely tested for contamination.,Water Management,Water Quality,Water Testing Problem
+Q00460,The river is polluted by untreated sewage.,Environment,Water Pollution,Sewage Water Pollution
+Q00161,Farmers cannot supply enough water to their fields.,Agriculture,Irrigation,Irrigation Water Shortage
+Q00277,There is no nearby market where farmers can sell their crops.,Agriculture,Agricultural Market,Market Access Problem
+Q00192,The village requires improved facilities for irrigating crops.,Agriculture,Irrigation,Poor Irrigation Infrastructure
+Q00386,The village does not have a proper sewage network.,Sanitation,Sewage Management,Sewage Network Problem
+Q00414,Water accumulates around houses during the rainy season.,Sanitation,Drainage,Waterlogging
+Q00492,Farmers are facing problems due to wildlife entering agricultural fields.,Environment,Biodiversity,Human Wildlife Conflict
+Q00344,The community needs measures to reduce water wastage.,Water Management,Water Conservation,Water Wastage
+Q00770,Rural entrepreneurs face difficulties obtaining funding.,Rural Livelihood,Small Businesses,Small Business Finance Problem
+Q00309,People are receiving water that is not suitable for drinking.,Water Management,Water Quality,Poor Water Quality
+Q00662,Wheelchair users cannot easily enter the government office.,Accessibility,Accessible Buildings,Inaccessible Public Buildings
+Q00131,Poor families cannot afford the medicines prescribed by doctors.,Healthcare,Medicine Availability,High Medicine Cost
+Q00664,People with mobility difficulties face barriers entering public facilities.,Accessibility,Accessible Buildings,Inaccessible Public Buildings
+Q00100,The medical facility requires major improvements.,Healthcare,Medical Infrastructure,Poor Health Facility
+Q00373,The village lacks a proper waste segregation system.,Sanitation,Waste Management,Waste Segregation Problem
+Q00088,People have no local centre for routine healthcare.,Healthcare,Healthcare Access,Lack of Local Healthcare
+Q00459,Domestic wastewater is contaminating nearby water bodies.,Environment,Water Pollution,Sewage Water Pollution
+Q00331,The village lacks effective measures to conserve water.,Water Management,Water Conservation,Water Conservation Problem
+Q00215,Crop disease outbreaks are affecting local farmers.,Agriculture,Crop Management,Crop Disease Management
+Q00467,Large areas of forest are being cleared.,Environment,Deforestation,Forest Loss
+Q00122,Patients are unable to get prescribed medicines from the local facility.,Healthcare,Medicine Availability,Medicine Shortage
+Q00615,Poor traffic signal management is causing congestion.,Urban Development,Traffic Management,Traffic Signal Problem
+Q00021,Students cannot attend online classes because internet connectivity is poor.,Education,Digital Education,Poor Internet Connectivity
+Q00701,People do not receive enough support to use assistive devices.,Accessibility,Assistive Technology,Assistive Technology Support Problem
+Q00072,Young people need training that is connected to employment opportunities.,Education,Vocational Training,Job Oriented Training Problem
+Q00107,Patients cannot get treatment because doctors are unavailable.,Healthcare,Doctor Availability,Doctor Shortage
+Q00271,Farmers receive very low prices when selling their crops.,Agriculture,Agricultural Market,Low Crop Prices
+Q00436,Smoke from vehicles is making the air unhealthy.,Environment,Air Pollution,Vehicle Pollution
+Q00103,The health centre needs better rooms and facilities.,Healthcare,Medical Infrastructure,Healthcare Infrastructure Problem

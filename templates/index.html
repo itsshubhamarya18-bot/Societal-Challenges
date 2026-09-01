@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Societal Challenge Classifier</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            background: #f4f6f8;
+
+            color: #222;
+
+            min-height: 100vh;
+
+        }
+
+        .header {
+
+            background: #1f2937;
+
+            color: white;
+
+            padding: 28px 20px;
+
+            text-align: center;
+
+        }
+
+        .header h1 {
+
+            font-size: 28px;
+
+            margin-bottom: 8px;
+
+        }
+
+        .header p {
+
+            color: #d1d5db;
+
+            font-size: 15px;
+
+        }
+
+        .container {
+
+            width: 90%;
+
+            max-width: 800px;
+
+            margin: 70px auto;
+
+        }
+
+        .card {
+
+            background: white;
+
+            padding: 35px;
+
+            border-radius: 12px;
+
+            box-shadow:
+                0 4px 15px
+                rgba(0, 0, 0, 0.08);
+
+        }
+
+        .card h2 {
+
+            margin-bottom: 10px;
+
+            font-size: 23px;
+
+        }
+
+        .description {
+
+            color: #6b7280;
+
+            margin-bottom: 22px;
+
+            line-height: 1.5;
+
+        }
+
+        textarea {
+
+            width: 100%;
+
+            min-height: 180px;
+
+            padding: 15px;
+
+            border: 1px solid #d1d5db;
+
+            border-radius: 8px;
+
+            resize: vertical;
+
+            font-size: 15px;
+
+            font-family: Arial, sans-serif;
+
+            outline: none;
+
+        }
+
+        textarea:focus {
+
+            border-color: #2563eb;
+
+        }
+
+        button {
+
+            width: 100%;
+
+            margin-top: 18px;
+
+            padding: 14px;
+
+            background: #2563eb;
+
+            color: white;
+
+            border: none;
+
+            border-radius: 8px;
+
+            font-size: 16px;
+
+            cursor: pointer;
+
+        }
+
+        button:hover {
+
+            background: #1d4ed8;
+
+        }
+
+        button:disabled {
+
+            background: #9ca3af;
+
+            cursor: not-allowed;
+
+        }
+
+        .loading {
+
+            display: none;
+
+            text-align: center;
+
+            margin-top: 15px;
+
+            color: #555;
+
+        }
+
+        .error {
+
+            display: none;
+
+            background: #fee2e2;
+
+            color: #991b1b;
+
+            padding: 12px;
+
+            border-radius: 7px;
+
+            margin-top: 15px;
+
+        }
+
+        @media (max-width: 600px) {
+
+            .container {
+
+                width: 94%;
+
+                margin: 40px auto;
+
+            }
+
+            .card {
+
+                padding: 25px;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <div class="header">
+
+        <h1>Societal Challenge Classifier</h1>
+
+        <p>
+            AI-powered classification of citizen problems
+        </p>
+
+    </div>
+
+
+    <div class="container">
+
+
+        <div class="card">
+
+            <h2>Submit Your Problem</h2>
+
+            <p class="description">
+
+                Describe the societal problem in your own words.
+                The system will automatically classify the
+                problem and identify related issues.
+
+            </p>
+
+
+            <textarea
+                id="problemText"
+                placeholder="Example: During the summer season, farmers in our village struggle to provide water to their fields."
+            ></textarea>
+
+
+            <button
+                id="submitButton"
+                onclick="submitProblem()"
+            >
+                Analyze Problem
+            </button>
+
+
+            <div
+                class="loading"
+                id="loading"
+            >
+                Analyzing problem...
+            </div>
+
+
+            <div
+                class="error"
+                id="error"
+            ></div>
+
+        </div>
+
+    </div>
+
+
+    <script>
+
+        async function submitProblem() {
+
+
+            const text =
+                document.getElementById(
+                    "problemText"
+                ).value.trim();
+
+
+            const button =
+                document.getElementById(
+                    "submitButton"
+                );
+
+
+            const loading =
+                document.getElementById(
+                    "loading"
+                );
+
+
+            const error =
+                document.getElementById(
+                    "error"
+                );
+
+
+            if (!text) {
+
+                error.textContent =
+                    "Please describe a problem first.";
+
+                error.style.display =
+                    "block";
+
+                return;
+
+            }
+
+
+            error.style.display =
+                "none";
+
+            loading.style.display =
+                "block";
+
+            button.disabled =
+                true;
+
+
+            try {
+
+
+                const response =
+                    await fetch(
+                        "/predict",
+                        {
+
+                            method: "POST",
+
+                            headers: {
+                                "Content-Type":
+                                    "application/json"
+                            },
+
+                            body: JSON.stringify({
+                                problem_text: text
+                            })
+
+                        }
+                    );
+
+
+                const data =
+                    await response.json();
+
+
+                if (!response.ok) {
+
+                    throw new Error(
+                        data.error ||
+                        "Prediction failed."
+                    );
+
+                }
+
+
+                /*
+                 * Store the prediction temporarily
+                 * in browser session storage.
+                 */
+                sessionStorage.setItem(
+                    "problem_text",
+                    text
+                );
+
+                sessionStorage.setItem(
+                    "prediction",
+                    JSON.stringify(data)
+                );
+
+
+                /*
+                 * Move to page 2.
+                 */
+
+                window.location.href =
+                    "/results";
+
+
+            }
+
+            catch (err) {
+
+                error.textContent =
+                    err.message;
+
+                error.style.display =
+                    "block";
+
+            }
+
+            finally {
+
+                loading.style.display =
+                    "none";
+
+                button.disabled =
+                    false;
+
+            }
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>
