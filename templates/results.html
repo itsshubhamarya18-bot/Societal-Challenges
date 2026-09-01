@@ -5,98 +5,125 @@
 
     <meta charset="UTF-8">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Problem Analysis Results</title>
+    <title>Problem Analysis</title>
+
 
     <style>
 
         * {
             box-sizing: border-box;
-            margin: 0;
-            padding: 0;
         }
 
-        body {
 
-            font-family: Arial, sans-serif;
+        body {
+            margin: 0;
+            padding: 0;
+
+            font-family: Arial, Helvetica, sans-serif;
 
             background: #f4f6f8;
 
             color: #222;
-
-            min-height: 100vh;
-
         }
 
-        .header {
 
-            background: #1f2937;
+        /* =====================================================
+           HEADER
+        ===================================================== */
+
+        header {
+            background: #1f2a3a;
 
             color: white;
 
-            padding: 25px 20px;
-
             text-align: center;
 
+            padding: 25px 20px;
         }
 
-        .header h1 {
 
-            font-size: 27px;
+        header h1 {
+            margin: 0;
 
-            margin-bottom: 7px;
+            font-size: 34px;
 
+            font-weight: 700;
         }
 
-        .header p {
 
-            color: #d1d5db;
+        header p {
+            margin: 10px 0 0;
 
+            font-size: 17px;
+
+            color: #d7dce3;
         }
+
+
+        /* =====================================================
+           MAIN CONTAINER
+        ===================================================== */
 
         .container {
-
-            width: 90%;
+            width: 92%;
 
             max-width: 1000px;
 
-            margin: 35px auto;
+            margin: 38px auto;
 
+            padding-bottom: 30px;
         }
 
-        .problem-box {
 
+        /* =====================================================
+           COMMON CARD
+        ===================================================== */
+
+        .card {
             background: white;
 
-            padding: 20px;
+            border-radius: 8px;
 
-            border-radius: 10px;
+            padding: 16px;
 
-            margin-bottom: 20px;
+            margin-bottom: 12px;
 
             box-shadow:
-                0 2px 8px
-                rgba(0, 0, 0, 0.07);
+                0 2px 7px rgba(0, 0, 0, 0.08);
 
+            border: 1px solid #e5e7eb;
         }
 
-        .problem-box h3 {
 
-            margin-bottom: 10px;
+        /* =====================================================
+           SUBMITTED PROBLEM
+        ===================================================== */
 
+        .problem-title {
+            font-size: 14px;
+
+            font-weight: bold;
+
+            margin-bottom: 9px;
+
+            color: #222;
         }
+
 
         .problem-text {
+            font-size: 13px;
+
+            line-height: 1.5;
 
             color: #555;
-
-            line-height: 1.6;
-
         }
+
+
+        /* =====================================================
+           RESULT GRID
+        ===================================================== */
 
         .result-grid {
 
@@ -105,145 +132,287 @@
             grid-template-columns:
                 repeat(3, 1fr);
 
-            gap: 15px;
+            gap: 10px;
 
-            margin-bottom: 20px;
-
+            margin-bottom: 12px;
         }
+
 
         .result-card {
 
             background: white;
 
-            padding: 20px;
+            border-radius: 7px;
 
-            border-radius: 10px;
+            padding: 14px;
+
+            min-height: 62px;
 
             box-shadow:
-                0 2px 8px
-                rgba(0, 0, 0, 0.07);
+                0 2px 6px rgba(0, 0, 0, 0.07);
 
+            border: 1px solid #e5e7eb;
         }
 
-        .label {
 
-            color: #6b7280;
+        .result-label {
 
-            font-size: 13px;
+            font-size: 10px;
 
             text-transform: uppercase;
 
-            margin-bottom: 8px;
+            color: #64748b;
 
+            margin-bottom: 6px;
+
+            letter-spacing: 0.3px;
         }
 
-        .value {
+
+        .result-value {
+
+            font-size: 13px;
+
+            font-weight: bold;
+
+            color: #222;
+
+            line-height: 1.3;
+        }
+
+
+        /* =====================================================
+           CONFIDENCE SECTION
+        ===================================================== */
+
+        .confidence-section {
+
+            background: white;
+
+            border-radius: 8px;
+
+            padding: 16px;
+
+            margin-bottom: 12px;
+
+            box-shadow:
+                0 2px 7px rgba(0, 0, 0, 0.08);
+
+            border: 1px solid #e5e7eb;
+        }
+
+
+        .section-title {
+
+            font-size: 14px;
+
+            font-weight: bold;
+
+            margin-bottom: 12px;
+
+            color: #222;
+        }
+
+
+        .confidence-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
+            gap: 10px;
+        }
+
+
+        .confidence-card {
+
+            background: #f8fafc;
+
+            border: 1px solid #e5e7eb;
+
+            border-radius: 6px;
+
+            padding: 12px;
+        }
+
+
+        .confidence-label {
+
+            font-size: 10px;
+
+            color: #64748b;
+
+            margin-bottom: 6px;
+
+            text-transform: uppercase;
+        }
+
+
+        .confidence-value {
 
             font-size: 18px;
 
             font-weight: bold;
 
+            color: #2563eb;
         }
 
-        .section {
+
+        /* =====================================================
+           KEYWORDS
+        ===================================================== */
+
+        .keywords-section {
 
             background: white;
 
-            padding: 22px;
+            border-radius: 8px;
 
-            border-radius: 10px;
+            padding: 16px;
 
-            margin-bottom: 20px;
+            margin-bottom: 12px;
 
             box-shadow:
-                0 2px 8px
-                rgba(0, 0, 0, 0.07);
+                0 2px 7px rgba(0, 0, 0, 0.08);
 
+            border: 1px solid #e5e7eb;
         }
 
-        .section h3 {
 
-            margin-bottom: 15px;
-
-        }
-
-        .tags {
+        .keywords {
 
             display: flex;
 
             flex-wrap: wrap;
 
-            gap: 8px;
-
+            gap: 7px;
         }
 
-        .tag {
 
-            background: #e5e7eb;
+        .keyword {
 
-            padding: 7px 12px;
+            background: #e9edf2;
 
-            border-radius: 20px;
+            color: #374151;
 
-            font-size: 14px;
+            padding: 5px 9px;
 
+            border-radius: 14px;
+
+            font-size: 10px;
         }
+
+
+        /* =====================================================
+           SIMILAR / DUPLICATE SECTION
+        ===================================================== */
+
+        .similar-section {
+
+            background: white;
+
+            border-radius: 8px;
+
+            padding: 16px;
+
+            margin-bottom: 12px;
+
+            box-shadow:
+                0 2px 7px rgba(0, 0, 0, 0.08);
+
+            border: 1px solid #e5e7eb;
+        }
+
 
         .duplicate-status {
 
-            padding: 12px;
+            padding: 8px 10px;
 
-            border-radius: 7px;
+            border-radius: 5px;
 
-            margin-bottom: 15px;
+            font-size: 11px;
 
-            font-weight: bold;
-
+            margin-bottom: 10px;
         }
 
-        .duplicate {
 
-            background: #fee2e2;
-
-            color: #991b1b;
-
-        }
-
-        .not-duplicate {
+        .no-duplicate {
 
             background: #dcfce7;
 
             color: #166534;
-
         }
+
+
+        .duplicate-found {
+
+            background: #fee2e2;
+
+            color: #991b1b;
+        }
+
 
         .similar-problem {
 
-            border: 1px solid #e5e7eb;
+            border: 1px solid #dfe3e8;
 
-            padding: 15px;
+            border-radius: 6px;
 
-            border-radius: 8px;
+            padding: 11px;
 
-            margin-bottom: 10px;
+            margin-bottom: 8px;
 
+            background: #ffffff;
         }
 
-        .similar-problem p {
 
-            margin-bottom: 7px;
+        .similar-id {
 
-            line-height: 1.5;
-
-        }
-
-        .similarity {
+            font-size: 10px;
 
             font-weight: bold;
 
+            color: #333;
+
+            margin-bottom: 7px;
+        }
+
+
+        .similar-text {
+
+            font-size: 10px;
+
+            color: #555;
+
+            line-height: 1.4;
+
+            margin-bottom: 6px;
+        }
+
+
+        .similarity {
+
+            font-size: 10px;
+
             color: #2563eb;
 
+            font-weight: bold;
         }
+
+
+        .no-results {
+
+            font-size: 11px;
+
+            color: #777;
+
+        }
+
+
+        /* =====================================================
+           BOTTOM BUTTON
+        ===================================================== */
 
         .back-button {
 
@@ -251,40 +420,102 @@
 
             width: 100%;
 
-            padding: 13px;
+            text-align: center;
 
-            margin-top: 20px;
+            text-decoration: none;
 
             background: #374151;
 
             color: white;
 
-            text-align: center;
+            padding: 8px;
 
-            text-decoration: none;
+            border-radius: 5px;
 
-            border-radius: 8px;
+            font-size: 11px;
 
+            transition: background 0.2s ease;
         }
+
 
         .back-button:hover {
 
             background: #1f2937;
-
         }
 
-        @media (max-width: 700px) {
+
+        /* =====================================================
+           RESPONSIVE DESIGN
+        ===================================================== */
+
+        @media (max-width: 750px) {
+
+            header h1 {
+                font-size: 28px;
+            }
+
+
+            header p {
+                font-size: 15px;
+            }
+
 
             .result-grid {
 
-                grid-template-columns: 1fr;
-
+                grid-template-columns:
+                    repeat(2, 1fr);
             }
+
+
+            .confidence-grid {
+
+                grid-template-columns:
+                    1fr;
+            }
+
+        }
+
+
+        @media (max-width: 500px) {
 
             .container {
 
                 width: 94%;
 
+                margin-top: 25px;
+            }
+
+
+            header {
+
+                padding: 20px 15px;
+            }
+
+
+            header h1 {
+
+                font-size: 24px;
+            }
+
+
+            header p {
+
+                font-size: 13px;
+            }
+
+
+            .result-grid {
+
+                grid-template-columns: 1fr;
+            }
+
+
+            .card,
+            .confidence-section,
+            .keywords-section,
+            .similar-section {
+
+                padding: 13px;
             }
 
         }
@@ -297,119 +528,154 @@
 <body>
 
 
-    <div class="header">
+    <!-- =====================================================
+         HEADER
+    ===================================================== -->
 
-        <h1>Problem Analysis</h1>
+    <header>
+
+        <h1>
+            Problem Analysis
+        </h1>
 
         <p>
             AI-generated classification results
         </p>
 
-    </div>
+    </header>
 
+
+    <!-- =====================================================
+         MAIN
+    ===================================================== -->
 
     <div class="container">
 
 
-        <!-- ORIGINAL PROBLEM -->
+        <!-- =================================================
+             SUBMITTED PROBLEM
+        ================================================= -->
 
-        <div class="problem-box">
+        <div class="card">
 
-            <h3>Submitted Problem</h3>
+            <div class="problem-title">
+                Submitted Problem
+            </div>
 
-            <p
-                class="problem-text"
-                id="problemText"
-            ></p>
+            <div class="problem-text">
+
+                {{ problem_text }}
+
+            </div>
 
         </div>
 
 
-        <!-- CLASSIFICATION -->
+        <!-- =================================================
+             CLASSIFICATION RESULTS
+        ================================================= -->
 
         <div class="result-grid">
 
 
+            <!-- DOMAIN -->
+
             <div class="result-card">
 
-                <div class="label">
+                <div class="result-label">
                     Domain
                 </div>
 
-                <div
-                    class="value"
-                    id="domain"
-                ></div>
+                <div class="result-value">
 
-            </div>
+                    {{ result.domain }}
 
-
-            <div class="result-card">
-
-                <div class="label">
-                    Sub-domain
                 </div>
 
-                <div
-                    class="value"
-                    id="subDomain"
-                ></div>
+            </div>
+
+
+            <!-- SUB-DOMAIN -->
+
+            <div class="result-card">
+
+                <div class="result-label">
+                    Sub-Domain
+                </div>
+
+                <div class="result-value">
+
+                    {{ result.sub_domain }}
+
+                </div>
 
             </div>
 
 
+            <!-- PROBLEM TYPE -->
+
             <div class="result-card">
 
-                <div class="label">
+                <div class="result-label">
                     Problem Type
                 </div>
 
-                <div
-                    class="value"
-                    id="problemType"
-                ></div>
+                <div class="result-value">
+
+                    {{ result.problem_type }}
+
+                </div>
 
             </div>
 
 
+            <!-- PRIORITY -->
+
             <div class="result-card">
 
-                <div class="label">
+                <div class="result-label">
                     Priority
                 </div>
 
-                <div
-                    class="value"
-                    id="priority"
-                ></div>
+                <div class="result-value">
+
+                    {{ result.priority }}
+
+                </div>
 
             </div>
 
 
+            <!-- SEVERITY -->
+
             <div class="result-card">
 
-                <div class="label">
+                <div class="result-label">
                     Severity
                 </div>
 
-                <div
-                    class="value"
-                    id="severity"
-                ></div>
+                <div class="result-value">
+
+                    {{ result.severity }}
+
+                </div>
 
             </div>
 
+
+            <!-- AFFECTED GROUP -->
 
             <div class="result-card">
 
-                <div class="label">
+                <div class="result-label">
                     Affected Group
                 </div>
 
-                <div
-                    class="value"
-                    id="affectedGroup"
-                ></div>
+                <div class="result-value">
+
+                    {{ result.affected_group }}
+
+                </div>
 
             </div>
 
@@ -417,300 +683,219 @@
         </div>
 
 
-        <!-- KEYWORDS -->
+        <!-- =================================================
+             MODEL CONFIDENCE
+        ================================================= -->
 
-        <div class="section">
+        <div class="confidence-section">
 
-            <h3>Extracted Keywords</h3>
+            <div class="section-title">
+                Model Confidence
+            </div>
 
-            <div
-                class="tags"
-                id="keywords"
-            ></div>
+
+            <div class="confidence-grid">
+
+
+                <!-- DOMAIN CONFIDENCE -->
+
+                <div class="confidence-card">
+
+                    <div class="confidence-label">
+                        Domain
+                    </div>
+
+                    <div class="confidence-value">
+
+                        {{ (result.confidence.domain * 100) | round(1) }}%
+
+                    </div>
+
+                </div>
+
+
+                <!-- SUB-DOMAIN CONFIDENCE -->
+
+                <div class="confidence-card">
+
+                    <div class="confidence-label">
+                        Sub-Domain
+                    </div>
+
+                    <div class="confidence-value">
+
+                        {{ (result.confidence.sub_domain * 100) | round(1) }}%
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROBLEM TYPE CONFIDENCE -->
+
+                <div class="confidence-card">
+
+                    <div class="confidence-label">
+                        Problem Type
+                    </div>
+
+                    <div class="confidence-value">
+
+                        {{ (result.confidence.problem_type * 100) | round(1) }}%
+
+                    </div>
+
+                </div>
+
+
+            </div>
 
         </div>
 
 
-        <!-- DUPLICATE -->
+        <!-- =================================================
+             EXTRACTED KEYWORDS
+        ================================================= -->
 
-        <div class="section">
+        <div class="keywords-section">
 
-            <h3>
+            <div class="section-title">
+                Extracted Keywords
+            </div>
+
+
+            {% if result.keywords %}
+
+                <div class="keywords">
+
+                    {% for keyword in result.keywords %}
+
+                        <span class="keyword">
+
+                            {{ keyword }}
+
+                        </span>
+
+                    {% endfor %}
+
+                </div>
+
+            {% else %}
+
+                <div class="no-results">
+
+                    No significant keywords detected.
+
+                </div>
+
+            {% endif %}
+
+        </div>
+
+
+        <!-- =================================================
+             SIMILAR / DUPLICATE PROBLEMS
+        ================================================= -->
+
+        <div class="similar-section">
+
+
+            <div class="section-title">
+
                 Similar / Duplicate Problems
-            </h3>
+
+            </div>
 
 
-            <div
-                id="duplicateStatus"
-                class="duplicate-status"
-            ></div>
+            <!-- DUPLICATE STATUS -->
+
+            {% if result.duplicate_detection.is_duplicate %}
+
+                <div class="duplicate-status duplicate-found">
+
+                    ⚠ Duplicate or highly similar problem detected
+
+                </div>
+
+            {% else %}
+
+                <div class="duplicate-status no-duplicate">
+
+                    ✓ No duplicate detected
+
+                </div>
+
+            {% endif %}
 
 
-            <div
-                id="similarProblems"
-            ></div>
+            <!-- SIMILAR PROBLEMS -->
+
+            {% if result.duplicate_detection.similar_problems %}
+
+
+                {% for problem in result.duplicate_detection.similar_problems %}
+
+
+                    <div class="similar-problem">
+
+
+                        <div class="similar-id">
+
+                            {{ problem.problem_id }}
+
+                        </div>
+
+
+                        <div class="similar-text">
+
+                            {{ problem.problem_text }}
+
+                        </div>
+
+
+                        <div class="similarity">
+
+                            Similarity:
+                            {{ problem.similarity }}
+
+                        </div>
+
+
+                    </div>
+
+
+                {% endfor %}
+
+
+            {% else %}
+
+                <div class="no-results">
+
+                    No similar problems found.
+
+                </div>
+
+            {% endif %}
+
 
         </div>
 
+
+        <!-- =================================================
+             BACK BUTTON
+        ================================================= -->
 
         <a
             href="/"
             class="back-button"
         >
+
             ← Submit Another Problem
+
         </a>
 
 
     </div>
-
-
-    <script>
-
-
-        const storedPrediction =
-            sessionStorage.getItem(
-                "prediction"
-            );
-
-
-        /*
-         * If user directly opens /results
-         * without submitting a problem.
-         */
-
-        if (!storedPrediction) {
-
-            window.location.href = "/";
-
-        }
-
-
-        else {
-
-
-            const data =
-                JSON.parse(
-                    storedPrediction
-                );
-
-
-            // ----------------------------------------
-            // BASIC INFORMATION
-            // ----------------------------------------
-
-            document.getElementById(
-                "domain"
-            ).textContent =
-                data.domain;
-
-
-            document.getElementById(
-                "subDomain"
-            ).textContent =
-                data.sub_domain;
-
-
-            document.getElementById(
-                "problemType"
-            ).textContent =
-                data.problem_type;
-
-
-            document.getElementById(
-                "priority"
-            ).textContent =
-                data.priority;
-
-
-            document.getElementById(
-                "severity"
-            ).textContent =
-                data.severity;
-
-
-            document.getElementById(
-                "affectedGroup"
-            ).textContent =
-                data.affected_group ||
-                "Not detected";
-
-
-            // ----------------------------------------
-            // KEYWORDS
-            // ----------------------------------------
-
-            document.getElementById(
-                "problemText"
-            ).textContent =
-                data.problem_text ||
-                sessionStorage.getItem(
-                    "problem_text"
-                ) ||
-                "Submitted problem";
-
-
-            const keywordContainer =
-                document.getElementById(
-                    "keywords"
-                );
-
-
-            keywordContainer.innerHTML =
-                "";
-
-
-            data.keywords.forEach(
-                keyword => {
-
-                    const tag =
-                        document.createElement(
-                            "span"
-                        );
-
-                    tag.className =
-                        "tag";
-
-                    tag.textContent =
-                        keyword;
-
-                    keywordContainer.appendChild(
-                        tag
-                    );
-
-                }
-            );
-
-
-            // ----------------------------------------
-            // DUPLICATE DETECTION
-            // ----------------------------------------
-
-            const duplicateStatus =
-                document.getElementById(
-                    "duplicateStatus"
-                );
-
-
-            if (
-                data.duplicate_detection
-                .is_duplicate
-            ) {
-
-                duplicateStatus.textContent =
-                    "⚠ Similar problem detected";
-
-                duplicateStatus.className =
-                    "duplicate-status duplicate";
-
-            }
-
-            else {
-
-                duplicateStatus.textContent =
-                    "✓ No duplicate detected";
-
-                duplicateStatus.className =
-                    "duplicate-status not-duplicate";
-
-            }
-
-
-            // ----------------------------------------
-            // SIMILAR PROBLEMS
-            // ----------------------------------------
-
-            const similarContainer =
-                document.getElementById(
-                    "similarProblems"
-                );
-
-
-            const similarProblems =
-                data.duplicate_detection
-                .similar_problems;
-
-
-            if (
-                !similarProblems ||
-                similarProblems.length === 0
-            ) {
-
-                similarContainer.innerHTML =
-                    "<p>No similar problems found.</p>";
-
-            }
-
-            else {
-
-
-                similarProblems.forEach(
-                    problem => {
-
-
-                        const div =
-                            document.createElement(
-                                "div"
-                            );
-
-
-                        div.className =
-                            "similar-problem";
-
-
-                        const id =
-                            document.createElement(
-                                "p"
-                            );
-
-                        id.innerHTML =
-                            "<strong>" +
-                            problem.problem_id +
-                            "</strong>";
-
-
-                        const text =
-                            document.createElement(
-                                "p"
-                            );
-
-                        text.textContent =
-                            problem.problem_text;
-
-
-                        const similarity =
-                            document.createElement(
-                                "p"
-                            );
-
-                        similarity.className =
-                            "similarity";
-
-                        similarity.textContent =
-                            "Similarity: " +
-                            problem.similarity;
-
-
-                        div.appendChild(id);
-
-                        div.appendChild(text);
-
-                        div.appendChild(
-                            similarity
-                        );
-
-
-                        similarContainer.appendChild(
-                            div
-                        );
-
-                    }
-                );
-
-            }
-
-        }
-
-    </script>
 
 
 </body>

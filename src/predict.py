@@ -256,3 +256,20 @@ def predict_problem(problem_text):
 
 
     return result
+
+
+# ============================================================
+# LOCAL TEST
+# ============================================================
+
+if __name__ == "__main__":
+
+    test_problem = (
+        "Farmers are unable to irrigate their crops because "
+        "there is not enough water available during the dry season."
+    )
+
+    result = predict_problem(test_problem)
+
+    print("\nPrediction:")
+    print(result)

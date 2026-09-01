@@ -5,209 +5,393 @@
 
     <meta charset="UTF-8">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Societal Challenge Classifier</title>
+    <title>Societal Problem Analyzer</title>
+
 
     <style>
 
         * {
             box-sizing: border-box;
-            margin: 0;
-            padding: 0;
         }
+
 
         body {
+            margin: 0;
+            padding: 0;
 
-            font-family: Arial, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
 
-            background: #f4f6f8;
+            background: #f4f7fb;
 
-            color: #222;
+            color: #1f2937;
 
             min-height: 100vh;
-
         }
 
-        .header {
 
-            background: #1f2937;
-
-            color: white;
-
-            padding: 28px 20px;
-
-            text-align: center;
-
-        }
-
-        .header h1 {
-
-            font-size: 28px;
-
-            margin-bottom: 8px;
-
-        }
-
-        .header p {
-
-            color: #d1d5db;
-
-            font-size: 15px;
-
-        }
+        /* =====================================================
+           MAIN CONTAINER
+        ===================================================== */
 
         .container {
 
-            width: 90%;
+            width: 100%;
 
-            max-width: 800px;
+            max-width: 980px;
 
-            margin: 70px auto;
+            margin: 0 auto;
 
+            padding: 70px 30px 60px;
         }
 
-        .card {
+
+        /* =====================================================
+           MAIN CARD
+        ===================================================== */
+
+        .main-card {
 
             background: white;
 
-            padding: 35px;
+            border-radius: 18px;
 
-            border-radius: 12px;
+            padding: 52px 54px 48px;
 
             box-shadow:
-                0 4px 15px
-                rgba(0, 0, 0, 0.08);
+                0 10px 35px rgba(30, 60, 90, 0.10);
 
+            border: 1px solid #e3e8ef;
         }
 
-        .card h2 {
 
-            margin-bottom: 10px;
+        /* =====================================================
+           ICON
+        ===================================================== */
 
-            font-size: 23px;
+        .icon-box {
 
+            width: 78px;
+
+            height: 78px;
+
+            margin: 0 auto 22px;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            background: #eef5ff;
+
+            border-radius: 18px;
+
+            font-size: 40px;
         }
+
+
+        /* =====================================================
+           TITLE
+        ===================================================== */
+
+        h1 {
+
+            text-align: center;
+
+            margin: 0;
+
+            font-size: 38px;
+
+            font-weight: 700;
+
+            color: #111827;
+
+            letter-spacing: -0.5px;
+        }
+
+
+        /* =====================================================
+           DESCRIPTION
+        ===================================================== */
 
         .description {
 
-            color: #6b7280;
+            max-width: 720px;
 
-            margin-bottom: 22px;
+            margin: 16px auto 42px;
 
-            line-height: 1.5;
+            text-align: center;
 
+            font-size: 17px;
+
+            line-height: 1.65;
+
+            color: #58708d;
         }
+
+
+        /* =====================================================
+           FORM
+        ===================================================== */
+
+        .form-group {
+
+            width: 100%;
+        }
+
+
+        .form-label {
+
+            display: block;
+
+            margin-bottom: 11px;
+
+            font-size: 17px;
+
+            font-weight: 600;
+
+            color: #26384d;
+        }
+
 
         textarea {
 
             width: 100%;
 
-            min-height: 180px;
-
-            padding: 15px;
-
-            border: 1px solid #d1d5db;
-
-            border-radius: 8px;
+            min-height: 225px;
 
             resize: vertical;
 
-            font-size: 15px;
+            padding: 20px;
 
-            font-family: Arial, sans-serif;
+            border: 1px solid #cbd5e1;
+
+            border-radius: 12px;
+
+            font-family: Arial, Helvetica, sans-serif;
+
+            font-size: 17px;
+
+            line-height: 1.55;
+
+            color: #374151;
+
+            background: white;
 
             outline: none;
 
+            transition:
+                border-color 0.2s ease,
+                box-shadow 0.2s ease;
         }
+
+
+        textarea::placeholder {
+
+            color: #8da1ba;
+        }
+
 
         textarea:focus {
 
-            border-color: #2563eb;
+            border-color: #3b82f6;
 
+            box-shadow:
+                0 0 0 3px rgba(59, 130, 246, 0.12);
         }
+
+
+        /* =====================================================
+           BUTTON
+        ===================================================== */
+
+        .button-container {
+
+            display: flex;
+
+            justify-content: center;
+
+            margin-top: 26px;
+        }
+
 
         button {
 
-            width: 100%;
+            border: none;
 
-            margin-top: 18px;
-
-            padding: 14px;
-
-            background: #2563eb;
+            background: #2864e8;
 
             color: white;
 
-            border: none;
+            padding: 15px 38px;
 
-            border-radius: 8px;
+            border-radius: 10px;
 
-            font-size: 16px;
+            font-size: 17px;
+
+            font-weight: 600;
 
             cursor: pointer;
 
+            min-width: 245px;
+
+            transition:
+                background 0.2s ease,
+                transform 0.1s ease,
+                box-shadow 0.2s ease;
         }
+
 
         button:hover {
 
-            background: #1d4ed8;
+            background: #1f56d0;
 
+            box-shadow:
+                0 5px 15px rgba(40, 100, 232, 0.22);
         }
 
-        button:disabled {
 
-            background: #9ca3af;
+        button:active {
 
-            cursor: not-allowed;
-
+            transform: translateY(1px);
         }
 
-        .loading {
 
-            display: none;
-
-            text-align: center;
-
-            margin-top: 15px;
-
-            color: #555;
-
-        }
+        /* =====================================================
+           ERROR MESSAGE
+        ===================================================== */
 
         .error {
 
-            display: none;
+            margin-top: 18px;
+
+            padding: 12px 15px;
 
             background: #fee2e2;
 
             color: #991b1b;
 
-            padding: 12px;
+            border: 1px solid #fecaca;
 
-            border-radius: 7px;
+            border-radius: 8px;
 
-            margin-top: 15px;
+            font-size: 14px;
 
+            text-align: center;
         }
 
-        @media (max-width: 600px) {
+
+        /* =====================================================
+           RESPONSIVE DESIGN
+        ===================================================== */
+
+        @media (max-width: 800px) {
 
             .container {
 
-                width: 94%;
-
-                margin: 40px auto;
-
+                padding:
+                    45px 20px 40px;
             }
 
-            .card {
 
-                padding: 25px;
+            .main-card {
 
+                padding:
+                    40px 35px;
+            }
+
+
+            h1 {
+
+                font-size: 32px;
+            }
+
+
+            .description {
+
+                font-size: 16px;
+
+                margin-bottom: 35px;
+            }
+
+        }
+
+
+        @media (max-width: 500px) {
+
+            .container {
+
+                padding:
+                    25px 14px 30px;
+            }
+
+
+            .main-card {
+
+                padding:
+                    30px 20px;
+
+                border-radius: 14px;
+            }
+
+
+            .icon-box {
+
+                width: 65px;
+
+                height: 65px;
+
+                font-size: 32px;
+
+                border-radius: 15px;
+            }
+
+
+            h1 {
+
+                font-size: 27px;
+            }
+
+
+            .description {
+
+                font-size: 14px;
+
+                line-height: 1.5;
+
+                margin-top: 13px;
+
+                margin-bottom: 30px;
+            }
+
+
+            .form-label {
+
+                font-size: 15px;
+            }
+
+
+            textarea {
+
+                min-height: 190px;
+
+                font-size: 15px;
+
+                padding: 15px;
+            }
+
+
+            button {
+
+                width: 100%;
+
+                min-width: 0;
+
+                font-size: 15px;
+
+                padding: 14px 20px;
             }
 
         }
@@ -220,202 +404,123 @@
 <body>
 
 
-    <div class="header">
-
-        <h1>Societal Challenge Classifier</h1>
-
-        <p>
-            AI-powered classification of citizen problems
-        </p>
-
-    </div>
-
+    <!-- =====================================================
+         MAIN PAGE
+    ===================================================== -->
 
     <div class="container">
 
 
-        <div class="card">
+        <div class="main-card">
 
-            <h2>Submit Your Problem</h2>
+
+            <!-- =================================================
+                 ICON
+            ================================================= -->
+
+            <div class="icon-box">
+
+                🔍
+
+            </div>
+
+
+            <!-- =================================================
+                 TITLE
+            ================================================= -->
+
+            <h1>
+
+                Analyze a Societal Problem
+
+            </h1>
+
+
+            <!-- =================================================
+                 DESCRIPTION
+            ================================================= -->
 
             <p class="description">
 
-                Describe the societal problem in your own words.
-                The system will automatically classify the
-                problem and identify related issues.
+                Describe a societal issue in your own words.
+                The system will analyze the problem and classify
+                it into the appropriate domain, sub-domain, and
+                problem type.
 
             </p>
 
 
-            <textarea
-                id="problemText"
-                placeholder="Example: During the summer season, farmers in our village struggle to provide water to their fields."
-            ></textarea>
+            <!-- =================================================
+                 FORM
+            ================================================= -->
 
-
-            <button
-                id="submitButton"
-                onclick="submitProblem()"
+            <form
+                action="/predict"
+                method="POST"
             >
-                Analyze Problem
-            </button>
 
 
-            <div
-                class="loading"
-                id="loading"
-            >
-                Analyzing problem...
-            </div>
+                <div class="form-group">
 
 
-            <div
-                class="error"
-                id="error"
-            ></div>
+                    <label
+                        for="problem_text"
+                        class="form-label"
+                    >
+
+                        Problem Description
+
+                    </label>
+
+
+                    <textarea
+                        id="problem_text"
+                        name="problem_text"
+                        placeholder="Example: Farmers in our village are unable to irrigate their crops because there is not enough water during the summer..."
+                        required
+                    >{{ problem_text if problem_text else '' }}</textarea>
+
+
+                </div>
+
+
+                <!-- =================================================
+                     SUBMIT BUTTON
+                ================================================= -->
+
+                <div class="button-container">
+
+                    <button type="submit">
+
+                        Analyze Problem →
+
+                    </button>
+
+                </div>
+
+
+            </form>
+
+
+            <!-- =================================================
+                 ERROR
+            ================================================= -->
+
+            {% if error %}
+
+                <div class="error">
+
+                    {{ error }}
+
+                </div>
+
+            {% endif %}
+
 
         </div>
 
+
     </div>
-
-
-    <script>
-
-        async function submitProblem() {
-
-
-            const text =
-                document.getElementById(
-                    "problemText"
-                ).value.trim();
-
-
-            const button =
-                document.getElementById(
-                    "submitButton"
-                );
-
-
-            const loading =
-                document.getElementById(
-                    "loading"
-                );
-
-
-            const error =
-                document.getElementById(
-                    "error"
-                );
-
-
-            if (!text) {
-
-                error.textContent =
-                    "Please describe a problem first.";
-
-                error.style.display =
-                    "block";
-
-                return;
-
-            }
-
-
-            error.style.display =
-                "none";
-
-            loading.style.display =
-                "block";
-
-            button.disabled =
-                true;
-
-
-            try {
-
-
-                const response =
-                    await fetch(
-                        "/predict",
-                        {
-
-                            method: "POST",
-
-                            headers: {
-                                "Content-Type":
-                                    "application/json"
-                            },
-
-                            body: JSON.stringify({
-                                problem_text: text
-                            })
-
-                        }
-                    );
-
-
-                const data =
-                    await response.json();
-
-
-                if (!response.ok) {
-
-                    throw new Error(
-                        data.error ||
-                        "Prediction failed."
-                    );
-
-                }
-
-
-                /*
-                 * Store the prediction temporarily
-                 * in browser session storage.
-                 */
-                sessionStorage.setItem(
-                    "problem_text",
-                    text
-                );
-
-                sessionStorage.setItem(
-                    "prediction",
-                    JSON.stringify(data)
-                );
-
-
-                /*
-                 * Move to page 2.
-                 */
-
-                window.location.href =
-                    "/results";
-
-
-            }
-
-            catch (err) {
-
-                error.textContent =
-                    err.message;
-
-                error.style.display =
-                    "block";
-
-            }
-
-            finally {
-
-                loading.style.display =
-                    "none";
-
-                button.disabled =
-                    false;
-
-            }
-
-        }
-
-    </script>
 
 
 </body>
