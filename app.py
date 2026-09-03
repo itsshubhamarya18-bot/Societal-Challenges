@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 from src.predict import predict_problem
 
 app = Flask(__name__)
@@ -9,6 +9,7 @@ def home():
     return render_template("index.html")
 
 
+# Website prediction route
 @app.route("/predict", methods=["POST"])
 def predict():
 
@@ -35,6 +36,35 @@ def predict():
             "index.html",
             error=f"Prediction error: {str(e)}"
         )
+
+
+# JSON API route for backend developers
+@app.route("/api/predict", methods=["POST"])
+def api_predict():
+
+    data = request.get_json()
+
+    if not data or "problem_text" not in data:
+        return jsonify({
+            "error": "problem_text is required"
+        }), 400
+
+    problem_text = data["problem_text"].strip()
+
+    if not problem_text:
+        return jsonify({
+            "error": "Problem description cannot be empty."
+        }), 400
+
+    try:
+        result = predict_problem(problem_text)
+
+        return jsonify(result)
+
+    except Exception as e:
+        return jsonify({
+            "error": str(e)
+        }), 500
 
 
 if __name__ == "__main__":

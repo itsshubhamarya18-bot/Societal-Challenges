@@ -87,84 +87,80 @@ def predict_problem(problem_text):
         [problem_text]
     )[0]
 
-
     domain_probability = max(
         domain_model.predict_proba(
             [problem_text]
         )[0]
     )
 
+    if domain_probability < 0.35:
+        domain = "Unknown"
 
     # ========================================================
     # SUB-DOMAIN
     # ========================================================
 
-    subdomain_filename = subdomain_models.get(
-        domain
-    )
+    sub_domain = "Unknown"
+    subdomain_probability = 0.0
 
-
-    if not subdomain_filename:
-
-        raise ValueError(
-            f"Sub-domain model not found for {domain}"
+    if domain != "Unknown":
+        subdomain_filename = subdomain_models.get(
+            domain
         )
 
+        if subdomain_filename:
+            subdomain_model = joblib.load(
+                os.path.join(
+                    MODEL_DIR,
+                    subdomain_filename
+                )
+            )
 
-    subdomain_model = joblib.load(
-        os.path.join(
-            MODEL_DIR,
-            subdomain_filename
-        )
-    )
+            sub_domain = subdomain_model.predict(
+                [problem_text]
+            )[0]
 
+            subdomain_probability = max(
+                subdomain_model.predict_proba(
+                    [problem_text]
+                )[0]
+            )
 
-    sub_domain = subdomain_model.predict(
-        [problem_text]
-    )[0]
-
-
-    subdomain_probability = max(
-        subdomain_model.predict_proba(
-            [problem_text]
-        )[0]
-    )
-
+            if subdomain_probability < 0.35:
+                sub_domain = "Unknown"
 
     # ========================================================
     # PROBLEM TYPE
     # ========================================================
 
-    problem_type_filename = problem_type_models.get(
-        sub_domain
-    )
+    problem_type = "Unknown"
+    problem_type_probability = 0.0
 
-
-    if not problem_type_filename:
-
-        raise ValueError(
-            f"Problem-type model not found for {sub_domain}"
+    if sub_domain != "Unknown":
+        problem_type_filename = problem_type_models.get(
+            sub_domain
         )
 
+        if problem_type_filename:
+            problem_type_model = joblib.load(
+                os.path.join(
+                    MODEL_DIR,
+                    problem_type_filename
+                )
+            )
 
-    problem_type_model = joblib.load(
-        os.path.join(
-            MODEL_DIR,
-            problem_type_filename
-        )
-    )
+            problem_type = problem_type_model.predict(
+                [problem_text]
+            )[0]
 
-
-    problem_type = problem_type_model.predict(
-        [problem_text]
-    )[0]
-
-
-    problem_type_probability = max(
-        problem_type_model.predict_proba(
-            [problem_text]
-        )[0]
-    )
+            problem_type_probability = max(
+                problem_type_model.predict_proba(
+                    [problem_text]
+                )[0]
+            )
+            
+            if problem_type_probability < 0.35:
+                problem_type = "Unknown"
 
 
     # ========================================================
